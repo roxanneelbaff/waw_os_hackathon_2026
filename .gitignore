@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment & secrets
+.env
+.env.*
+!.env.sample
+*.key
+
+# Data files (large / raw)
+*.warc
+*.warc.gz
+*.jsonl.gz
+module1_web_and_llm/data/processed/
+
+# Vector index artifacts
+*.faiss
+*.index
+faiss_index/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+.history/

@@ -1,0 +1,25 @@
+# LLM & LangChain
+langchain
+langchain-community
+langchain-openai
+openai
+
+# Jupyter
+notebook
+ipykernel
+ipywidgets
+
+# Data processing
+pandas
+beautifulsoup4
+lxml
+tqdm
+warcio
+
+# Local vector index (MOSAIC)
+faiss-cpu
+
+# Utilities
+python-dotenv
+requests
+tiktoken
