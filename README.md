@@ -71,16 +71,9 @@ Explore a ready-made, **thematically classified and geolocated dataset** derived
 
 ## Common Setup
 
-All modules use **Python 3.1X+** and **Jupyter Notebooks**. Each module folder contains its own `requirements.txt` and setup instructions.
+- All modules use **Python 3.1X+** and **Jupyter Notebooks**. Each module folder contains its own `requirements.txt` and setup instructions.
+- API keys (where needed) will be provided by the organizers on the day.
 
-```bash
-cd <module-folder>
-python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-jupyter notebook
-```
 
-> We will help you set things up.
+### We will help you set things up.
 
-API keys (where needed) will be provided by the organizers on the day.
