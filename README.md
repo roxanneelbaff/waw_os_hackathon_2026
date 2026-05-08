@@ -5,6 +5,9 @@ Welcome! This hackathon explores the **EU OpenWebSearch at DLR (OWS)** ecosystem
 **No prior experience required** — only a basic knowledge of Python is needed.
 The modules are designed for all levels:
 
+**What to bring** 
+Please bring your own laptop with a python installation and an environment where jupyter notebooks can be installed. 
+
 - **Beginners** will follow guided steps to set up a working pipeline end-to-end
 - **Advanced participants** can go further by tuning prompts, swapping components, experimenting with retrieval strategies, or bringing their own data and research questions
 
