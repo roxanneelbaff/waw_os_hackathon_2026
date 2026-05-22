@@ -1,0 +1,9 @@
+jupyter
+notebook
+ipykernel
+pandas
+requests
+python-dotenv
+folium
+rapidfuzz
+

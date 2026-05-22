@@ -1,0 +1,6 @@
+spacy
+stanza
+flair
+transformers
+torch
+
