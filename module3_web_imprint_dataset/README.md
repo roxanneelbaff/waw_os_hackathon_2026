@@ -143,10 +143,6 @@ The notebook `module3_notebook.ipynb` is divided into the following sections:
 * Identify clusters of websites with similar thematic content
 * Study digital governance patterns in urban vs. rural areas
 
-
-## Troubleshooting
-
-
 ## Tips for Participants
 
 - You can swap the LLM model name in the config cell without changing anything else.
