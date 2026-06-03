@@ -1,9 +1,9 @@
 # Module 3 — Web Imprint Dataset
 
-##Goal:
+## Goal:
 Get familiar with the [German Imprints Dataset](https://openwebindex.eu/corpora/4057d6a0-0bd9-11f1-89ba-02a47ca5d9fd) — its structure, geospatial content, and thematic classification — and learn how to use enriched web data for your own geospatial research.
 
-##Overview:  
+## Overview:  
 This module guides you through the end-to-end pipeline of working with web-extracted, geocoded, and thematically classified data from the OWS Legal Imprint Dataset. You'll learn how to:
 
 * Extract and filter web-based legal imprint data
@@ -13,7 +13,7 @@ This module guides you through the end-to-end pipeline of working with web-extra
 * Visualize results and explore research applications
 
 
-##How: 
+## How: 
 
 1. Data Filtering: Select relevant websites from the OWS dataset (e.g., by country, domain, or legal status) using [DuckDB](https://duckdb.org/).
 2. Data Processing: Clean, enrich, and classify web text (e.g., extract themes like "privacy policy", "contact info").
@@ -21,8 +21,8 @@ This module guides you through the end-to-end pipeline of working with web-extra
 4. Example Output: Interactive maps, thematic heatmaps, or statistical insights.
 
 
-##Data: 
-* Sample of the OWS Legal Imprint Dataset (with coordinates and thematic labels)
+## Data: 
+* Sample of the OWS [German Imprints Dataset](https://openwebindex.eu/corpora/4057d6a0-0bd9-11f1-89ba-02a47ca5d9fd)(with coordinates and thematic labels)
 * Example Jupyter notebook: module3_notebook.ipynb
 * Pre-configured environment setup
 * Spatial administrative vector layers from Germany
@@ -123,17 +123,17 @@ The first notebook cell verifies your Python version, installed packages, and ma
 
 The notebook `module3_notebook.ipynb` is divided into the following sections:
 
-### Section 0 — Setup & Sanity Check
+# Section 0 — Setup & Sanity Check
 
-### Section 1 — Data Source Information 
+# Section 1 — Data Source Information 
 
-### Section 2 — Data Extraction Using DuckDB
+# Section 2 — Data Extraction Using DuckDB
 
-### Section 3 — Data Filtering
+# Section 3 — Data Filtering
 
-### Section 4 — Geopsatial Analysis
+# Section 4 — Geopsatial Analysis
 
-### Section 5 — DIY
+# Section 5 — DIY
 
 
 ## Example Use Cases
@@ -143,14 +143,6 @@ The notebook `module3_notebook.ipynb` is divided into the following sections:
     Identify clusters of websites with similar thematic content
     Study digital governance patterns in urban vs. rural areas
 
-
-### Section 3 — Indexing
-
-### Section 4 — Retrieval
-
-### Section 5 — 
-
-## File Structure
 
 ## Troubleshooting
 
