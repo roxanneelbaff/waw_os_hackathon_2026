@@ -22,10 +22,12 @@ This module guides you through the end-to-end pipeline of working with web-extra
 
 
 ## Data: 
+#The sample data sets used in this tutorial can be downloaded via this link: 
 * Sample of the OWS [German Imprints Dataset](https://openwebindex.eu/corpora/4057d6a0-0bd9-11f1-89ba-02a47ca5d9fd)(with coordinates and thematic labels)
 * Example Jupyter notebook: module3_notebook.ipynb
 * Pre-configured environment setup
 * Spatial administrative vector layers from Germany
+
 
 The Imprint Data set includes:
 * Website URL
