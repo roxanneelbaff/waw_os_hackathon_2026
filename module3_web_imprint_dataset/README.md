@@ -67,7 +67,7 @@ cd wawopensearch3_hackathon/module3_web_imprint_dataset
 ```
 #### 1.2 Dowlonad zip File of repository form gigamove
 # Follow the link to download the zipped repository file from Giga Move
-# Link: 
+#Link: 
 
 ### 2. Create a environment
 **Linux / macOS**
@@ -98,7 +98,7 @@ conda activate waw_os_legal_imprint
 ```bash
 pip install -r requirements.txt
 ```
-# other option: Install packages
+#other option: Install packages
 mamba install -c conda-forge jupyter pandas geopandas duckdb mapclassify matplotlib
 
 ### 5. Launch Jupyter
@@ -107,7 +107,7 @@ mamba install -c conda-forge jupyter pandas geopandas duckdb mapclassify matplot
 jupyter notebook module3_notebook.ipynb
 ```
 
-# If you wish to install the packages in jupyter use this command
+#If you wish to install the packages in jupyter use this command
 !pip install pandas geopandas duckdb mapclassify matplotlib
 
 # Once you are done working in the environemnt close your environment
@@ -123,25 +123,25 @@ The first notebook cell verifies your Python version, installed packages, and ma
 
 The notebook `module3_notebook.ipynb` is divided into the following sections:
 
-# Section 0 — Setup & Sanity Check
+#### Section 0 — Setup & Sanity Check
 
-# Section 1 — Data Source Information 
+#### Section 1 — Data Source Information 
 
-# Section 2 — Data Extraction Using DuckDB
+#### Section 2 — Data Extraction Using DuckDB
 
-# Section 3 — Data Filtering
+#### Section 3 — Data Filtering
 
-# Section 4 — Geopsatial Analysis
+#### Section 4 — Geopsatial Analysis
 
-# Section 5 — DIY
+#### Section 5 — DIY
 
 
-## Example Use Cases
+### Example Use Cases
 
-    Map the geographic spread of websites with "privacy policies"
-    Compare legal imprint presence across EU vs. non-EU countries
-    Identify clusters of websites with similar thematic content
-    Study digital governance patterns in urban vs. rural areas
+* Map the geographic spread of websites with "privacy policies"
+* Compare legal imprint presence across EU vs. non-EU countries
+* Identify clusters of websites with similar thematic content
+* Study digital governance patterns in urban vs. rural areas
 
 
 ## Troubleshooting
