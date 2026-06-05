@@ -42,7 +42,7 @@ The Imprint Data set includes:
 Data Filtering
         │
         ▼
-Data Processing
+Data Post-Processing
         │
         ▼
 Geospatial Analysis
@@ -63,14 +63,16 @@ Example output
 ## Environment Setup
 ### 1. Get the repository
 #### 1.1 Clone the repository (only availalbe if your have access to DLR Gitlab)
+#Navigate to the directory of your choise to download the repository
 ```bash
-git clone <repo-url>
+git clone https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon.git #<repo-url>
+#Navigate to modlue 3 folder
 cd wawopensearch3_hackathon/module3_web_imprint_dataset
 ```
 #### 1.2 Dowlonad zip File of repository form gigamove
 # Follow the link to download the zipped repository file from Giga Move
 #Link: 
-
+#The downloaded data_folder has to be saved within the repository folder structure
 ### 2. Create a environment
 **Linux / macOS**
 ```bash
