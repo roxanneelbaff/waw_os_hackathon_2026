@@ -2,11 +2,13 @@
 
 ## Goal:
 Get familiar with the [German Imprints Dataset](https://openwebindex.eu/corpora/4057d6a0-0bd9-11f1-89ba-02a47ca5d9fd) — its structure, geospatial content, and thematic classification — and learn how to use enriched web data for your own geospatial research.
+
 ![OWI dataset overview](https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon/-/raw/main/module3_web_imprint_dataset/images/OWI_overview.png)
 
 ## Overview:  
 This module guides you through the end-to-end pipeline of working with web-extracted, geocoded, and thematically classified data from the OWS Legal Imprint Dataset. You'll learn how to:
 
+* Learn how to use a data corpus from teh OWI platform
 * Extract and filter web-based legal imprint data
 * Learn how to use [DuckDB](https://duckdb.org/) to filter easy large data sets 
 * Process and enrich text with geolocation and topic tags
@@ -140,11 +142,3 @@ The notebook `WAW_OpenSearch_LegalImprint.ipynb` is divided into the following s
 * Identify clusters of websites with similar thematic content
 * Study digital governance patterns in urban vs. rural areas
 
-## Tips for Participants
-
-- You can swap the LLM model name in the config cell without changing anything else.
-- The agentic mode prompt in Section 5 is intentionally minimal — improving it is a great experiment.
-- Try different chunking strategies (size, overlap) in Section 3 and observe the effect on retrieval quality.
-- The judge prompt in Section 6 can be modified to add custom scoring dimensions.
-
-Get Started -- Terms of Use -- Feedback
