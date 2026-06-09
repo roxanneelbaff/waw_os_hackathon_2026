@@ -40,8 +40,7 @@ The Imprint Data set includes:
 ---
 ## System Overview
 
-#![overview](https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon/-/raw/main/module3_web_imprint_dataset/images/overview.png)
-<img src="https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon/-/raw/main/module3_web_imprint_dataset/images/OWI_overview.png" alt="OWI dataset overview" width="500">
+<img src="https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon/-/raw/main/module3_web_imprint_dataset/images/overview.png" alt="OWI dataset overview" width="700">
 ---
 ## Prerequisites
 | Requirement | Version |
