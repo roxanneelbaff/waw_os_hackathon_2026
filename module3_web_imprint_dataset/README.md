@@ -63,7 +63,7 @@ git clone https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon.git #<repo-u
 cd wawopensearch3_hackathon/module3_web_imprint_dataset
 ```
 Please download the folder with the sample data from the following link\
-Link: https://gigamove.rwth-aachen.de/de/download/74c05f2c031992a01e553431e8dbca1c\
+Link: https://gigamove.rwth-aachen.de/de/download/74c05f2c031992a01e553431e8dbca1c \
 The downloaded data_folder has to be saved and unzipped within the repository folder structure
 
 #### 1.2 Dowlonad zip File of repository form gigamove
