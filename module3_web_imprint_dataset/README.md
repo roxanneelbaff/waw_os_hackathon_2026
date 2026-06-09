@@ -49,7 +49,7 @@ The Imprint Data set includes:
 | Python | 3.10 or 3.11 recommended |
 | pip | latest |
 | Jupyter | included via requirements |
-| Git | For clonign the repo |
+| Git | For cloning the repo |
 ---
 ## Environment Setup
 ### 1. Get the repository
