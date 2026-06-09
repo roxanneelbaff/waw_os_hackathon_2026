@@ -2,6 +2,7 @@
 
 ## Goal:
 Get familiar with the [German Imprints Dataset](https://openwebindex.eu/corpora/4057d6a0-0bd9-11f1-89ba-02a47ca5d9fd) — its structure, geospatial content, and thematic classification — and learn how to use enriched web data for your own geospatial research.
+![OWI dataset overview](/images/OWI_overview.png)
 
 ## Overview:  
 This module guides you through the end-to-end pipeline of working with web-extracted, geocoded, and thematically classified data from the OWS Legal Imprint Dataset. You'll learn how to:
@@ -24,7 +25,7 @@ This module guides you through the end-to-end pipeline of working with web-extra
 ## Data: 
 #The sample data sets used in this tutorial can be downloaded via this link: 
 * Sample of the OWS [German Imprints Dataset](https://openwebindex.eu/corpora/4057d6a0-0bd9-11f1-89ba-02a47ca5d9fd)(with coordinates and thematic labels)
-* Example Jupyter notebook: module3_notebook.ipynb
+* Example Jupyter notebook: WAW_OpenSearch_LegalImprint.ipynb
 * Pre-configured environment setup
 * Spatial administrative vector layers from Germany
 
@@ -70,8 +71,8 @@ git clone https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon.git #<repo-u
 cd wawopensearch3_hackathon/module3_web_imprint_dataset
 ```
 #Please download the folder with the sample data from the following link
-#Link:
-#The downloaded data_folder has to be saved within the repository folder structure
+#Link: https://gigamove.rwth-aachen.de/de/download/74c05f2c031992a01e553431e8dbca1c
+#The downloaded data_folder has to be saved and unzipped within the repository folder structure 
 
 #### 1.2 Dowlonad zip File of repository form gigamove
 # Follow the link to download the zipped repository file from Giga Move, within this folder structure the sample data folder is already integrated, no need of an additional download
