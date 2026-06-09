@@ -2,7 +2,7 @@
 
 ## Goal:
 Get familiar with the [German Imprints Dataset](https://openwebindex.eu/corpora/4057d6a0-0bd9-11f1-89ba-02a47ca5d9fd) — its structure, geospatial content, and thematic classification — and learn how to use enriched web data for your own geospatial research.
-![OWI dataset overview](https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon/-/blob/main/module3_web_imprint_dataset/images/OWI_overview.png)
+![OWI dataset overview](https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon/-/raw/main/module3_web_imprint_dataset/images/OWI_overview.png)
 
 ## Overview:  
 This module guides you through the end-to-end pipeline of working with web-extracted, geocoded, and thematically classified data from the OWS Legal Imprint Dataset. You'll learn how to:
@@ -40,7 +40,7 @@ The Imprint Data set includes:
 ---
 ## System Overview
 
-![overview](https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon/-/blob/main/module3_web_imprint_dataset/images/overview.png)
+![overview](https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon/-/raw/main/module3_web_imprint_dataset/images/overview.png)
     
 ---
 ## Prerequisites
