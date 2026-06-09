@@ -15,10 +15,10 @@ The notebooks are designed for researchers, engineers, and scientists who want p
 ```text
 notebooks/                 Workshop notebooks
 src/                       Small reusable helper functions
-data/                      Sample and challenge texts
-outputs/results/           Intermediate CSV outputs
-outputs/maps/              Saved HTML maps
-external/                  Optional external tools such as UniTopRank
+data/                      Sample and challenge datasets
+outputs/results/           Generated CSV outputs
+outputs/maps/              Generated HTML maps
+external/                  Local external tools such as UniTopRank
 ```
 
 ## Setup
@@ -32,17 +32,9 @@ pip install --upgrade pip
 pip install -r requirements-core.txt
 ```
 
-Optional NER tools are separated because some packages and models are large. For workshop participants, the recommended path is to open Notebook 01 and use the per-tool install cells directly before each example.
+Do not install NER packages during this setup step. Notebook 01 introduces spaCy, Stanza, Flair, and Transformers separately, and each section has its own install cell directly before the example. This keeps the participant path clear and avoids installing large packages that are not used.
 
-For pre-building an environment, you can install all optional NER packages with:
-
-```bash
-pip install -r requirements-optional-ner.txt
-python -m spacy download en_core_web_sm
-python -m spacy download de_core_news_sm
-```
-
-Copy `.env.example` to `.env` if you need to override service URLs.
+Copy `.env.example` to `.env` only if you need to override service URLs.
 
 ## Start Jupyter
 
@@ -62,9 +54,7 @@ Run the notebooks in this order:
 
 ## DLR Services
 
-The GeoNames, Photon, and LLM-RAG service URLs may require the DLR internal network or VPN. The notebooks catch connection errors and continue with small sample outputs where possible.
-
-Notebook 04 uses `SERVICE_BASE_URL` for the LLM-RAG service endpoint and supports `use_geonames=True` with optional `use_photon=True`.
+The GeoNames, Photon, and LLM-RAG service URLs may require the DLR internal network or VPN. If a service is unreachable, the notebooks print the error or return an empty result.
 
 Default URLs are configured in `src/config.py` and can be overridden through environment variables:
 
@@ -75,45 +65,7 @@ LLM_RAG_BASE_URL
 REQUEST_TIMEOUT
 ```
 
-## Optional: UniTopRank Setup
-
-Notebook 03 uses the official UniTopRank repository to rank GeoNames/Photon candidates. It first extracts place names with the NER setup from Notebook 01, then retrieves candidates, then calls the UniTopRank ranking API.
-
-Notebook 03 has two candidate-source options:
-
-- `geonames`: use GeoNames only.
-- `geonames_photon`: follow UniTopRank's default two-geocoder logic: use GeoNames first, then use Photon only when GeoNames has no candidates or no high-quality name match.
-
-To install UniTopRank:
-
-```bash
-mkdir -p external
-git clone https://gitlab.com/dlr-dw/UniTopRank.git external/UniTopRank
-cd external/UniTopRank
-python3 -m venv /tmp/unitoprank_venv
-source /tmp/unitoprank_venv/bin/activate
-pip install --upgrade pip setuptools wheel
-pip install -r requirements.txt
-```
-
-Optional NER dependencies:
-
-```bash
-pip install -r requirements-ner.txt
-```
-
-For this hackathon, the recommended path is the direct ranking API because NER is handled in Notebook 01.
-Current UniTopRank snapshots keep `geo_rank_api.py`, `geoparsing_api.py`, and `requirements.txt` directly in the repository root.
-
 ## Troubleshooting
 
 - If an internal service is unreachable, check DLR network or VPN access.
 - If core packages are missing, run the controlled install cell in Notebook 00.
-- If NER packages or models are missing, run the install cell in the matching tool section in Notebook 01.
-- If UniTopRank imports fail, run the install cell in Notebook 03 or install UniTopRank manually.
-- If optional NER packages are missing, Notebook 01 will still run the available sections and skip the others.
-- Run `python -m src.validate_project` to check that the scaffold is complete.
-
-## Maintainer
-
-Contact/maintainer: TODO

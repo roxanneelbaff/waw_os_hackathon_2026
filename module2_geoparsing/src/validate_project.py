@@ -12,12 +12,7 @@ REQUIRED_FOLDERS = [
     "data",
     "data/sample_texts",
     "data/disaster_tweets",
-    "data/disease_news",
     "data/scientific_paper",
-    "outputs",
-    "outputs/results",
-    "outputs/maps",
-    "external",
 ]
 
 REQUIRED_NOTEBOOKS = [
@@ -76,4 +71,3 @@ def validate() -> bool:
 
 if __name__ == "__main__":
     raise SystemExit(0 if validate() else 1)
-
