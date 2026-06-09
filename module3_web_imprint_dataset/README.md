@@ -25,7 +25,7 @@ This module guides you through the end-to-end pipeline of working with web-extra
 
 
 ## Data: 
-#The sample data sets used in this tutorial can be downloaded via this link: 
+The sample data sets used in this tutorial can be downloaded via this link: 
 * Sample of the OWS [German Imprints Dataset](https://openwebindex.eu/corpora/4057d6a0-0bd9-11f1-89ba-02a47ca5d9fd)(with coordinates and thematic labels)
 * Example Jupyter notebook: WAW_OpenSearch_LegalImprint.ipynb
 * Pre-configured environment setup
@@ -56,21 +56,21 @@ The Imprint Data set includes:
 ## Environment Setup
 ### 1. Get the repository
 #### 1.1 Clone the repository (only availalbe if your have access to DLR Gitlab)
-#Navigate to the directory of your choise to download the repository
+Navigate to the directory of your choise to download the repository
 ```bash
 git clone https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon.git #<repo-url>
 #Navigate to modlue 3 folder
 cd wawopensearch3_hackathon/module3_web_imprint_dataset
 ```
-#Please download the folder with the sample data from the following link
-#Link: https://gigamove.rwth-aachen.de/de/download/74c05f2c031992a01e553431e8dbca1c
-#The downloaded data_folder has to be saved and unzipped within the repository folder structure 
+Please download the folder with the sample data from the following link
+Link: https://gigamove.rwth-aachen.de/de/download/74c05f2c031992a01e553431e8dbca1c
+The downloaded data_folder has to be saved and unzipped within the repository folder structure 
 
 #### 1.2 Dowlonad zip File of repository form gigamove
-# Follow the link to download the zipped repository file from Giga Move, within this folder structure the sample data folder is already integrated, no need of an additional download
-#Navigate to your preferred directory to unpack the folder
-#Link: 
-#The downloaded data_folder has to be saved within the repository folder structure
+Follow the link to download the zipped repository file from Giga Move, within this folder structure the sample data folder is already integrated, no need of an additional download
+Navigate to your preferred directory to unpack the folder
+Link: 
+The downloaded data_folder has to be saved within the repository folder structure
 
 ### 2. Create a environment
 **Linux / macOS**
