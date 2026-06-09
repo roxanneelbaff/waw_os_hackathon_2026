@@ -62,14 +62,14 @@ git clone https://gitlab.dlr.de/opensearch/wawopensearch3_hackathon.git #<repo-u
 #Navigate to modlue 3 folder
 cd wawopensearch3_hackathon/module3_web_imprint_dataset
 ```
-Please download the folder with the sample data from the following link
-Link: https://gigamove.rwth-aachen.de/de/download/74c05f2c031992a01e553431e8dbca1c
-The downloaded data_folder has to be saved and unzipped within the repository folder structure 
+Please download the folder with the sample data from the following link\
+Link: https://gigamove.rwth-aachen.de/de/download/74c05f2c031992a01e553431e8dbca1c\
+The downloaded data_folder has to be saved and unzipped within the repository folder structure
 
 #### 1.2 Dowlonad zip File of repository form gigamove
-Follow the link to download the zipped repository file from Giga Move, within this folder structure the sample data folder is already integrated, no need of an additional download
-Navigate to your preferred directory to unpack the folder
-Link: 
+Follow the link to download the zipped repository file from Giga Move, within this folder structure the sample data folder is already integrated, no need of an additional download\
+Navigate to your preferred directory to unpack the folder\
+Link: \
 The downloaded data_folder has to be saved within the repository folder structure
 
 ### 2. Create a environment
@@ -93,9 +93,9 @@ mamba create -n waw_os_legal_imprint python=3.10
 > `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
 
 ### 3. Activate envorinment
-
+```
 mamba activate waw_os_legal_imprint
-
+```
 ### 4. Install dependencies
 
 ```bash
