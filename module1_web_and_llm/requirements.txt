@@ -15,6 +15,7 @@ beautifulsoup4==4.15.0
 lxml==6.1.1
 tqdm==4.68.1
 warcio==1.8.1
+pyarrow
 
 # Local vector index (MOSAIC)
 faiss-cpu==1.14.2
