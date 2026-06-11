@@ -1,0 +1,6 @@
+geopandas
+duckdb
+mapclassify
+pandas
+matplotlib
+jupyter

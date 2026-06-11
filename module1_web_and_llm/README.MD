@@ -105,6 +105,8 @@ LLM_BASE_URL=<provided-by-organizers>
 jupyter notebook module1_notebook.ipynb
 ```
 
+or open it in your favorite editor.
+
 ### 6. Sanity check
 
 The first notebook cell verifies your Python version, installed packages, and makes a test call to the LLM. You should see a short response before moving on.
@@ -120,24 +122,43 @@ The notebook `module1_notebook.ipynb` is divided into the following sections:
 - Verify dependencies
 - Confirm LLM connectivity with a hello-world call
 
-### Section 1 — Data Acquisition
-- Load the provided OWI (Open Web Index) sample (~few MB, JSONL/WARC format)
+### Section 1 — Data Acquisition (owilix)
+- https://opencode.it4i.eu/openwebsearcheu-public/owi-cli/ 
+- install: curl -fsSL https://openwebindex.net/owilix/install.sh | sh
+            `This script:
+
+            Installs uv if not present
+            Creates a virtual environment at ~/.venv/owilix
+            Installs the latest owilix
+            Adds to your PATH
+            Checks for config migrations`
+
+            'Verify Installation
+            owilix --version
+            owilix remote doctor
+            owilix remote ls all'
+- check key commands: 
+    - `owilix remote pull all:latest`
+- Load the provided OWI (Open Web Index) sample (~few MB, JSONL/WARC format) - `owilix` tool guide
 - Inspect raw records: URL, crawl date, raw HTML / extracted text
 
-### Section 2 — Data Processing
-- `process_record(record) → dict`: cleans and normalises a single record
-  - Strip HTML tags, normalize whitespace, remove boilerplate
-  - Extract: `url`, `title`, `text`, `language`, `domain`
-- Display **before / after** comparison for several records
-- Show aggregate stats (record count, language distribution, average text length)
+### Section 2 — Data Processing (owilic)
+
+- basic data cleanup
 
 ### Section 3 — Indexing with MOSAIC
 
-> MOSAIC runs locally — no external account required.
+https://mosaic.ows.eu
+check installation instructions...
 
-- Chunk processed documents
-- Embed and index into a local MOSAIC vector store
+
+> MOSAIC runs locally — no external account required.
+- call function 'create_mosaic_index(data_parquet, data_ciff)' These are from OWILIX
+- click here (local host for mosaic)
 - Verify index by querying for a known term
+
+the files are available here: https://drive.google.com/drive/folders/1WhM9LTesEdeyH4o6-kCuPvyqezyFFWxw?usp=share_link
+
 
 ### Section 4 — Retrieval
 
@@ -157,7 +178,7 @@ Three sources are provided:
 | Function | Source |
 |---|---|
 | `retrieve_local(queries, n)` | Local MOSAIC index (built in Section 3) |
-| `retrieve_remote(queries, n)` | Remote MOSAIC index (URL provided by organizers) |
+| `retrieve_remote(queries, n)` | Remote MOSAIC index (URL provided by organizers)  | 
 | `retrieve_ourss(queries, n)` | ourrs.eu API + post-processing |
 
 **Query handling:** pass a single string or a list. For lists, the function loops over each query and returns the union of top-N results.
@@ -185,21 +206,6 @@ The LangChain RAG chain takes the retrieved context and the user question, then 
 
 ---
 
-## File Structure
-
-```
-module1_web_and_llm/
-├── README.MD               ← this file
-├── requirements.txt        ← all Python dependencies
-├── module1_notebook.ipynb  ← main notebook
-├── data/
-│   ├── sample.jsonl        ← OWI data sample (provided)
-│   └── processed/          ← auto-created by notebook
-└── .env                    ← API keys (create manually, not committed)
-```
-
----
-
 ## Troubleshooting
 
 **`ModuleNotFoundError`** — make sure your virtual environment is activated and you ran `pip install -r requirements.txt`.
@@ -217,4 +223,5 @@ module1_web_and_llm/
 - You can swap the LLM model name in the config cell without changing anything else.
 - The agentic mode prompt in Section 5 is intentionally minimal — improving it is a great experiment.
 - Try different chunking strategies (size, overlap) in Section 3 and observe the effect on retrieval quality.
+- Try your answers with different retrieval mode. 
 - The judge prompt in Section 6 can be modified to add custom scoring dimensions.

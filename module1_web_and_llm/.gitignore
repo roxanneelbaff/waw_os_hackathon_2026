@@ -1,0 +1,5 @@
+mosaic/
+.env
+opensearch_hackathon
+data/*.ciff*
+data/*.parquet
