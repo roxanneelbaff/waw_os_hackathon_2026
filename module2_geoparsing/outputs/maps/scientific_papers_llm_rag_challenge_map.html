@@ -1,0 +1,4302 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5faea99098e8f18e30450d1d7033005c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_5faea99098e8f18e30450d1d7033005c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5faea99098e8f18e30450d1d7033005c = L.map(
+                "map_5faea99098e8f18e30450d1d7033005c",
+                {
+                    center: [26.88924667711144, 27.782370834401092],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+            L.control.scale().addTo(map_5faea99098e8f18e30450d1d7033005c);
+
+            
+
+        
+    
+            var tile_layer_cd35db959b7d4e12dc5cbd81d707b662 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cd35db959b7d4e12dc5cbd81d707b662.addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+            var marker_58c1e066e3667a941ba992ed7f7001c6 = L.marker(
+                [30.25, 79.25],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_7dc93443cd833fc5921f3551c794287e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0d5cd086b913bf5b5c2a7ccd0e8132f3 = $(`<div id="html_0d5cd086b913bf5b5c2a7ccd0e8132f3" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Uttarakhand<br><b>selected_name</b>: Uttarakhand, India<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_7dc93443cd833fc5921f3551c794287e.setContent(html_0d5cd086b913bf5b5c2a7ccd0e8132f3);
+            
+        
+
+        marker_58c1e066e3667a941ba992ed7f7001c6.bindPopup(popup_7dc93443cd833fc5921f3551c794287e)
+        ;
+
+        
+    
+    
+            var marker_2761e909d04bc6403885cfef177a770c = L.marker(
+                [22.20775, 76.97021],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_cc1a4cd687dd6b59a97a7a802da77079 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3c35f46a6587278afa3901e49a112e25 = $(`<div id="html_3c35f46a6587278afa3901e49a112e25" style="width: 100.0%; height: 100.0%;"><b>mention</b>: India<br><b>selected_name</b>: India<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_cc1a4cd687dd6b59a97a7a802da77079.setContent(html_3c35f46a6587278afa3901e49a112e25);
+            
+        
+
+        marker_2761e909d04bc6403885cfef177a770c.bindPopup(popup_cc1a4cd687dd6b59a97a7a802da77079)
+        ;
+
+        
+    
+    
+            var marker_a2537cfffb3d88f0c27f58fcd8c648b7 = L.marker(
+                [30.25, 79.25],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_93b4ad8824b2ecf168381dc1c04952f6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_818d8c6efbfeefae4469e436036300ed = $(`<div id="html_818d8c6efbfeefae4469e436036300ed" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Uttarakhand<br><b>selected_name</b>: Uttarakhand, India<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_93b4ad8824b2ecf168381dc1c04952f6.setContent(html_818d8c6efbfeefae4469e436036300ed);
+            
+        
+
+        marker_a2537cfffb3d88f0c27f58fcd8c648b7.bindPopup(popup_93b4ad8824b2ecf168381dc1c04952f6)
+        ;
+
+        
+    
+    
+            var marker_96ec30b692d2c2d64b80e8a2062233ee = L.marker(
+                [55.94645, -4.74784],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_40c159ca3f51f7830934832d2e2d94ae = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4edf68677d7d1ba85678b3be18e66a3e = $(`<div id="html_4edf68677d7d1ba85678b3be18e66a3e" style="width: 100.0%; height: 100.0%;"><b>mention</b>: East India's<br><b>selected_name</b>: East India<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_40c159ca3f51f7830934832d2e2d94ae.setContent(html_4edf68677d7d1ba85678b3be18e66a3e);
+            
+        
+
+        marker_96ec30b692d2c2d64b80e8a2062233ee.bindPopup(popup_40c159ca3f51f7830934832d2e2d94ae)
+        ;
+
+        
+    
+    
+            var marker_1631aae9f40d2694b1e11d1c192ca80f = L.marker(
+                [21.56742, 87.3595],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_95697fd087b637f44749a176e056288e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_61888ebc22919e7c909ec31f5f7d5a3e = $(`<div id="html_61888ebc22919e7c909ec31f5f7d5a3e" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Subarnarekha River<br><b>selected_name</b>: Subarnarekha River, India<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_95697fd087b637f44749a176e056288e.setContent(html_61888ebc22919e7c909ec31f5f7d5a3e);
+            
+        
+
+        marker_1631aae9f40d2694b1e11d1c192ca80f.bindPopup(popup_95697fd087b637f44749a176e056288e)
+        ;
+
+        
+    
+    
+            var marker_ce4601d85f931bf0c5ba382f88b1f882 = L.marker(
+                [24.0, 121.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_296cbe030d330e40b5852e9009f7692e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_61cf14247336615287ea0b13ba0a3275 = $(`<div id="html_61cf14247336615287ea0b13ba0a3275" style="width: 100.0%; height: 100.0%;"><b>mention</b>: ROC<br><b>selected_name</b>: Taiwan<br><b>application_context</b>: Landslides and related hazards<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_296cbe030d330e40b5852e9009f7692e.setContent(html_61cf14247336615287ea0b13ba0a3275);
+            
+        
+
+        marker_ce4601d85f931bf0c5ba382f88b1f882.bindPopup(popup_296cbe030d330e40b5852e9009f7692e)
+        ;
+
+        
+    
+    
+            var marker_0f1e004ae2876cd6d32d0d7192f1c1f0 = L.marker(
+                [20.5, 84.41667],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_3d3c820146971c0206588a461439f02f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_9a9c20c03ec708845e0d67c5e282a35b = $(`<div id="html_9a9c20c03ec708845e0d67c5e282a35b" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Odisha<br><b>selected_name</b>: Odisha, India<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_3d3c820146971c0206588a461439f02f.setContent(html_9a9c20c03ec708845e0d67c5e282a35b);
+            
+        
+
+        marker_0f1e004ae2876cd6d32d0d7192f1c1f0.bindPopup(popup_3d3c820146971c0206588a461439f02f)
+        ;
+
+        
+    
+    
+            var marker_c02d1bca89fec84b08d779e53990fe22 = L.marker(
+                [24.0, 88.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_105790c7d399d1d98e2c2148d1e2a387 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a2425865becf9fc565f0d16bd43029a9 = $(`<div id="html_a2425865becf9fc565f0d16bd43029a9" style="width: 100.0%; height: 100.0%;"><b>mention</b>: West Bengal<br><b>selected_name</b>: West Bengal, India<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_105790c7d399d1d98e2c2148d1e2a387.setContent(html_a2425865becf9fc565f0d16bd43029a9);
+            
+        
+
+        marker_c02d1bca89fec84b08d779e53990fe22.bindPopup(popup_105790c7d399d1d98e2c2148d1e2a387)
+        ;
+
+        
+    
+    
+            var marker_1b7d8704b77fd70e4565f9789fff0043 = L.marker(
+                [24.0, 88.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_4e8d815c23c039a08fc652f8c85cfb22 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7c4f12d12f82e0966a3c7271b17abc39 = $(`<div id="html_7c4f12d12f82e0966a3c7271b17abc39" style="width: 100.0%; height: 100.0%;"><b>mention</b>: West Bengal<br><b>selected_name</b>: West Bengal, India<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_4e8d815c23c039a08fc652f8c85cfb22.setContent(html_7c4f12d12f82e0966a3c7271b17abc39);
+            
+        
+
+        marker_1b7d8704b77fd70e4565f9789fff0043.bindPopup(popup_4e8d815c23c039a08fc652f8c85cfb22)
+        ;
+
+        
+    
+    
+            var marker_09038951880b02b4a515a9513e91300b = L.marker(
+                [22.82893, 88.20099],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_c0e992993f3ffa98fb304688d2501d8d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_884daa1e786405c21aaed929da93ef92 = $(`<div id="html_884daa1e786405c21aaed929da93ef92" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Hoogly<br><b>selected_name</b>: Hooghly, West Bengal, India<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_c0e992993f3ffa98fb304688d2501d8d.setContent(html_884daa1e786405c21aaed929da93ef92);
+            
+        
+
+        marker_09038951880b02b4a515a9513e91300b.bindPopup(popup_c0e992993f3ffa98fb304688d2501d8d)
+        ;
+
+        
+    
+    
+            var marker_ffbff887ebda22517c420592c079eeb5 = L.marker(
+                [22.71, 88.7108],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_abd8c0963374c7ca16fc9c6be4a7963e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8f396d2fdc32659b3747d01577ee76dd = $(`<div id="html_8f396d2fdc32659b3747d01577ee76dd" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Parganas<br><b>selected_name</b>: Parganas, West Bengal, India<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_abd8c0963374c7ca16fc9c6be4a7963e.setContent(html_8f396d2fdc32659b3747d01577ee76dd);
+            
+        
+
+        marker_ffbff887ebda22517c420592c079eeb5.bindPopup(popup_abd8c0963374c7ca16fc9c6be4a7963e)
+        ;
+
+        
+    
+    
+            var marker_9d7e71f4340b25ad7744a317c0f1c6e1 = L.marker(
+                [20.5, 84.41667],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_6798573bfed31379531ee5d0133ad5dd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b72a790b00133c6978955ae5708c521a = $(`<div id="html_b72a790b00133c6978955ae5708c521a" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Odisha<br><b>selected_name</b>: Odisha, India<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_6798573bfed31379531ee5d0133ad5dd.setContent(html_b72a790b00133c6978955ae5708c521a);
+            
+        
+
+        marker_9d7e71f4340b25ad7744a317c0f1c6e1.bindPopup(popup_6798573bfed31379531ee5d0133ad5dd)
+        ;
+
+        
+    
+    
+            var marker_09e3c31af0f3fa8f7e8e33169d4d078b = L.marker(
+                [20.5, 86.5],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_33c75880dab75a29d9ef0203e3c65690 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4065ee917ab7e662cbab7ea113836ca0 = $(`<div id="html_4065ee917ab7e662cbab7ea113836ca0" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Kendrapara<br><b>selected_name</b>: Kendrapara, Odisha, India<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_33c75880dab75a29d9ef0203e3c65690.setContent(html_4065ee917ab7e662cbab7ea113836ca0);
+            
+        
+
+        marker_09e3c31af0f3fa8f7e8e33169d4d078b.bindPopup(popup_33c75880dab75a29d9ef0203e3c65690)
+        ;
+
+        
+    
+    
+            var marker_f907dd197da7ff938f4b080d94fa97d1 = L.marker(
+                [21.5, 86.75],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_49bd3ce19872fab938b296409a67cbe8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7c17d0bb8484d65063e7805921246728 = $(`<div id="html_7c17d0bb8484d65063e7805921246728" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Balasore<br><b>selected_name</b>: Balasore, Odisha, India<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_49bd3ce19872fab938b296409a67cbe8.setContent(html_7c17d0bb8484d65063e7805921246728);
+            
+        
+
+        marker_f907dd197da7ff938f4b080d94fa97d1.bindPopup(popup_49bd3ce19872fab938b296409a67cbe8)
+        ;
+
+        
+    
+    
+            var marker_be62dc0d342c31cc34acf8375cbd87bd = L.marker(
+                [20.84149, 86.31237],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_a88aea0c753cc0f29d153db355eff313 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fb4bf846fa2c6a611fd680d0a572d399 = $(`<div id="html_fb4bf846fa2c6a611fd680d0a572d399" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Jajpur<br><b>selected_name</b>: Jajpur, Odisha, India<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_a88aea0c753cc0f29d153db355eff313.setContent(html_fb4bf846fa2c6a611fd680d0a572d399);
+            
+        
+
+        marker_be62dc0d342c31cc34acf8375cbd87bd.bindPopup(popup_a88aea0c753cc0f29d153db355eff313)
+        ;
+
+        
+    
+    
+            var marker_9afa9144154d62bec4e660e236ec28fb = L.marker(
+                [20.2, 85.6],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_6d065c4024ed9cb5a2ae4778bb198660 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3368f077a8c02ea43be1cc1f08840db1 = $(`<div id="html_3368f077a8c02ea43be1cc1f08840db1" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Khordha<br><b>selected_name</b>: Khordha, Odisha, India<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_6d065c4024ed9cb5a2ae4778bb198660.setContent(html_3368f077a8c02ea43be1cc1f08840db1);
+            
+        
+
+        marker_9afa9144154d62bec4e660e236ec28fb.bindPopup(popup_6d065c4024ed9cb5a2ae4778bb198660)
+        ;
+
+        
+    
+    
+            var marker_a21e88c2d5ec16437e8172c4d5465740 = L.marker(
+                [35.0, 105.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_e874b67d87f83b4d2b85913cae23366d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5ef4132dacd0da4a9cf70b3eb9d26efe = $(`<div id="html_5ef4132dacd0da4a9cf70b3eb9d26efe" style="width: 100.0%; height: 100.0%;"><b>mention</b>: China<br><b>selected_name</b>: China<br><b>application_context</b>: Water Resources and Sustainability<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_e874b67d87f83b4d2b85913cae23366d.setContent(html_5ef4132dacd0da4a9cf70b3eb9d26efe);
+            
+        
+
+        marker_a21e88c2d5ec16437e8172c4d5465740.bindPopup(popup_e874b67d87f83b4d2b85913cae23366d)
+        ;
+
+        
+    
+    
+            var marker_a07f25594c7eabb8e74f988f518c2cba = L.marker(
+                [35.0, 105.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_2a39ce851eee6c3ea22654db68402786 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6117593b22eb5a8e553db71f16b76ff9 = $(`<div id="html_6117593b22eb5a8e553db71f16b76ff9" style="width: 100.0%; height: 100.0%;"><b>mention</b>: China<br><b>selected_name</b>: China<br><b>application_context</b>: Water Resources and Sustainability<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_2a39ce851eee6c3ea22654db68402786.setContent(html_6117593b22eb5a8e553db71f16b76ff9);
+            
+        
+
+        marker_a07f25594c7eabb8e74f988f518c2cba.bindPopup(popup_2a39ce851eee6c3ea22654db68402786)
+        ;
+
+        
+    
+    
+            var marker_1555229a681d55cd6b03cac3052fe854 = L.marker(
+                [50.75339, -3.27617],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_b28ed4116f6773fe9ac87c286d18d2fb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2c8cdc8d10b2f9b92df9ff177216193b = $(`<div id="html_2c8cdc8d10b2f9b92df9ff177216193b" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Otter Valley<br><b>selected_name</b>: Otter Valley, Devon, England, United Kingdom<br><b>application_context</b>: Soil erosion and sediment transport<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_b28ed4116f6773fe9ac87c286d18d2fb.setContent(html_2c8cdc8d10b2f9b92df9ff177216193b);
+            
+        
+
+        marker_1555229a681d55cd6b03cac3052fe854.bindPopup(popup_b28ed4116f6773fe9ac87c286d18d2fb)
+        ;
+
+        
+    
+    
+            var marker_f754251d78b325b722c4a588836a1e87 = L.marker(
+                [50.75632, -3.23487],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_52b8f366f811ad305497bef376076393 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1fc43438bb46e37e3711001f24a99887 = $(`<div id="html_1fc43438bb46e37e3711001f24a99887" style="width: 100.0%; height: 100.0%;"><b>mention</b>: East Devon<br><b>selected_name</b>: East Devon, England, United Kingdom<br><b>application_context</b>: Soil erosion and sediment transport<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_52b8f366f811ad305497bef376076393.setContent(html_1fc43438bb46e37e3711001f24a99887);
+            
+        
+
+        marker_f754251d78b325b722c4a588836a1e87.bindPopup(popup_52b8f366f811ad305497bef376076393)
+        ;
+
+        
+    
+    
+            var marker_8654c0d416b4a53205e351b5106814c1 = L.marker(
+                [54.75844, -2.69531],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_1785946571026829a0e79da4144631e2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_15f07382e09ac7562d7a865dba30b73b = $(`<div id="html_15f07382e09ac7562d7a865dba30b73b" style="width: 100.0%; height: 100.0%;"><b>mention</b>: UK<br><b>selected_name</b>: United Kingdom<br><b>application_context</b>: Soil erosion and sediment transport<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_1785946571026829a0e79da4144631e2.setContent(html_15f07382e09ac7562d7a865dba30b73b);
+            
+        
+
+        marker_8654c0d416b4a53205e351b5106814c1.bindPopup(popup_1785946571026829a0e79da4144631e2)
+        ;
+
+        
+    
+    
+            var marker_11de2c8efdc30a6ad559eb2566015dae = L.marker(
+                [30.0, 70.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_201dd5fef72caa628e63d6af363c5696 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_92e601042c2ec45e3ae34cd9e7156bc0 = $(`<div id="html_92e601042c2ec45e3ae34cd9e7156bc0" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Pakistan<br><b>selected_name</b>: Pakistan<br><b>application_context</b>: Geological and Geophysical Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_201dd5fef72caa628e63d6af363c5696.setContent(html_92e601042c2ec45e3ae34cd9e7156bc0);
+            
+        
+
+        marker_11de2c8efdc30a6ad559eb2566015dae.bindPopup(popup_201dd5fef72caa628e63d6af363c5696)
+        ;
+
+        
+    
+    
+            var marker_280ea56f4ea53ae2acb6e66ac2b3e71c = L.marker(
+                [48.815291, 7.8095748],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_dd5350d5ee4b4a959b99b9b6fed923f0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dd2c4e8258b07c476b81b7d8038cb57c = $(`<div id="html_dd2c4e8258b07c476b81b7d8038cb57c" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Tethys Sea<br><b>selected_name</b>: Tethys Sea<br><b>application_context</b>: Geological and Geophysical Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_dd5350d5ee4b4a959b99b9b6fed923f0.setContent(html_dd2c4e8258b07c476b81b7d8038cb57c);
+            
+        
+
+        marker_280ea56f4ea53ae2acb6e66ac2b3e71c.bindPopup(popup_dd5350d5ee4b4a959b99b9b6fed923f0)
+        ;
+
+        
+    
+    
+            var marker_f29a42aa9b02e9e59afa11a4da10d898 = L.marker(
+                [48.815291, 7.8095748],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_570032576d259e1339878004cca67966 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8e75844e4202118b7b30f51521ac513e = $(`<div id="html_8e75844e4202118b7b30f51521ac513e" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Tethys Sea<br><b>selected_name</b>: Tethys Sea<br><b>application_context</b>: Geological and Geophysical Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_570032576d259e1339878004cca67966.setContent(html_8e75844e4202118b7b30f51521ac513e);
+            
+        
+
+        marker_f29a42aa9b02e9e59afa11a4da10d898.bindPopup(popup_570032576d259e1339878004cca67966)
+        ;
+
+        
+    
+    
+            var marker_7441cdce4bda0c2efee4949786a0fde1 = L.marker(
+                [22.20775, 76.97021],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_7b1dcdff69ae15db348d4b4853535455 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_87e3e869066a343432a59989f6f214e8 = $(`<div id="html_87e3e869066a343432a59989f6f214e8" style="width: 100.0%; height: 100.0%;"><b>mention</b>: India<br><b>selected_name</b>: India<br><b>application_context</b>: Geological and Geophysical Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_7b1dcdff69ae15db348d4b4853535455.setContent(html_87e3e869066a343432a59989f6f214e8);
+            
+        
+
+        marker_7441cdce4bda0c2efee4949786a0fde1.bindPopup(popup_7b1dcdff69ae15db348d4b4853535455)
+        ;
+
+        
+    
+    
+            var marker_5f05dbdef10d07da2840aec7752e6376 = L.marker(
+                [29.84064, 89.29688],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_cda5d1f61cfed326f1532be2cd365efb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8d79cd165c36ea8ef0abd851fe61aaf8 = $(`<div id="html_8d79cd165c36ea8ef0abd851fe61aaf8" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Asia<br><b>selected_name</b>: Asia<br><b>application_context</b>: Geological and Geophysical Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_cda5d1f61cfed326f1532be2cd365efb.setContent(html_8d79cd165c36ea8ef0abd851fe61aaf8);
+            
+        
+
+        marker_5f05dbdef10d07da2840aec7752e6376.bindPopup(popup_cda5d1f61cfed326f1532be2cd365efb)
+        ;
+
+        
+    
+    
+            var marker_6e92d6c218a404b19aeb45dd439e05a8 = L.marker(
+                [48.815291, 7.8095748],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_0a52a74139d7f4bf827a2ebd81d3fc25 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f4a2cfafd194aaba2fe04cfb83b9f1b1 = $(`<div id="html_f4a2cfafd194aaba2fe04cfb83b9f1b1" style="width: 100.0%; height: 100.0%;"><b>mention</b>: The Tethys Sea<br><b>selected_name</b>: Tethys Sea<br><b>application_context</b>: Geological and Geophysical Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_0a52a74139d7f4bf827a2ebd81d3fc25.setContent(html_f4a2cfafd194aaba2fe04cfb83b9f1b1);
+            
+        
+
+        marker_6e92d6c218a404b19aeb45dd439e05a8.bindPopup(popup_0a52a74139d7f4bf827a2ebd81d3fc25)
+        ;
+
+        
+    
+    
+            var marker_1cad18b09ad6bc19072b0d3cc1d87245 = L.marker(
+                [48.815291, 7.8095748],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_3d420703ab3b2401d653ee3fd954105f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e7f88eba4ae9de39eb288bbb9f36c8c5 = $(`<div id="html_e7f88eba4ae9de39eb288bbb9f36c8c5" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Tethys Sea<br><b>selected_name</b>: Tethys Sea<br><b>application_context</b>: Geological and Geophysical Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_3d420703ab3b2401d653ee3fd954105f.setContent(html_e7f88eba4ae9de39eb288bbb9f36c8c5);
+            
+        
+
+        marker_1cad18b09ad6bc19072b0d3cc1d87245.bindPopup(popup_3d420703ab3b2401d653ee3fd954105f)
+        ;
+
+        
+    
+    
+            var marker_43a66b318813c103562cdcdc91ea1145 = L.marker(
+                [48.815291, 7.8095748],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_af7662b0c78e30b9b1f8e56baad2556b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_08969cb59115ee9835385ced3df7a8d2 = $(`<div id="html_08969cb59115ee9835385ced3df7a8d2" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Tethys Sea<br><b>selected_name</b>: Tethys Sea<br><b>application_context</b>: Geological and Geophysical Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_af7662b0c78e30b9b1f8e56baad2556b.setContent(html_08969cb59115ee9835385ced3df7a8d2);
+            
+        
+
+        marker_43a66b318813c103562cdcdc91ea1145.bindPopup(popup_af7662b0c78e30b9b1f8e56baad2556b)
+        ;
+
+        
+    
+    
+            var marker_ac73e927e19bb30cf168c3d0494cf02d = L.marker(
+                [48.815291, 7.8095748],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_2927d7803e6df19b4fccd39bb0fb4221 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_33b0794e19c81a89e63a83f39130ffd6 = $(`<div id="html_33b0794e19c81a89e63a83f39130ffd6" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Tethys Sea<br><b>selected_name</b>: Tethys Sea<br><b>application_context</b>: Geological and Geophysical Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_2927d7803e6df19b4fccd39bb0fb4221.setContent(html_33b0794e19c81a89e63a83f39130ffd6);
+            
+        
+
+        marker_ac73e927e19bb30cf168c3d0494cf02d.bindPopup(popup_2927d7803e6df19b4fccd39bb0fb4221)
+        ;
+
+        
+    
+    
+            var marker_61e4dcceeb900b35fa0db93e6c3b0f51 = L.marker(
+                [49.30164, 5.7893],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_f8ea49f92d685fc71c92ba0982374140 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e88df48dc0dfe24df2582c0ba35c22c9 = $(`<div id="html_e88df48dc0dfe24df2582c0ba35c22c9" style="width: 100.0%; height: 100.0%;"><b>mention</b>: North-East<br><b>selected_name</b>: Nord-Est, France<br><b>application_context</b>: Geotechnical and Geomechanical Engineering<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_f8ea49f92d685fc71c92ba0982374140.setContent(html_e88df48dc0dfe24df2582c0ba35c22c9);
+            
+        
+
+        marker_61e4dcceeb900b35fa0db93e6c3b0f51.bindPopup(popup_f8ea49f92d685fc71c92ba0982374140)
+        ;
+
+        
+    
+    
+            var marker_71950e68c957b23e9e8f5f1132791091 = L.marker(
+                [46.0, 2.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_0d545fb91d1b3f00401f7b0e24d0ac37 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3fe32594b8938e62e357bb17e1256906 = $(`<div id="html_3fe32594b8938e62e357bb17e1256906" style="width: 100.0%; height: 100.0%;"><b>mention</b>: France<br><b>selected_name</b>: France<br><b>application_context</b>: Geotechnical and Geomechanical Engineering<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_0d545fb91d1b3f00401f7b0e24d0ac37.setContent(html_3fe32594b8938e62e357bb17e1256906);
+            
+        
+
+        marker_71950e68c957b23e9e8f5f1132791091.bindPopup(popup_0d545fb91d1b3f00401f7b0e24d0ac37)
+        ;
+
+        
+    
+    
+            var marker_fe815e56f1183f8900fa31d5fa8a364b = L.marker(
+                [30.0, 70.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_a71c022f4aad17e9ae07b36b8c223718 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_571f99b39f9f8929dee7336d3d9383cc = $(`<div id="html_571f99b39f9f8929dee7336d3d9383cc" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Pakistan<br><b>selected_name</b>: Pakistan<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_a71c022f4aad17e9ae07b36b8c223718.setContent(html_571f99b39f9f8929dee7336d3d9383cc);
+            
+        
+
+        marker_fe815e56f1183f8900fa31d5fa8a364b.bindPopup(popup_a71c022f4aad17e9ae07b36b8c223718)
+        ;
+
+        
+    
+    
+            var marker_8fa570d3951be9f01f72a7ebf76d5378 = L.marker(
+                [15.0, 19.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_14c70b9a6f8acaa630439d2376daac87 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d941c6040778ec74955020d250db97e4 = $(`<div id="html_d941c6040778ec74955020d250db97e4" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Chad<br><b>selected_name</b>: Chad<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_14c70b9a6f8acaa630439d2376daac87.setContent(html_d941c6040778ec74955020d250db97e4);
+            
+        
+
+        marker_8fa570d3951be9f01f72a7ebf76d5378.bindPopup(popup_14c70b9a6f8acaa630439d2376daac87)
+        ;
+
+        
+    
+    
+            var marker_1c3221b2c18d710b97ff13a2f62f9e4d = L.marker(
+                [40.7446562, -74.0247642],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_a498e1ddf77bf14b871e6f85f1a1f4ab = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a0241feae6cee1da53df3357811c784d = $(`<div id="html_a0241feae6cee1da53df3357811c784d" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Wiley Online Library<br><b>selected_name</b>: Wiley Online Library, Hoboken, New Jersey, United States<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_a498e1ddf77bf14b871e6f85f1a1f4ab.setContent(html_a0241feae6cee1da53df3357811c784d);
+            
+        
+
+        marker_1c3221b2c18d710b97ff13a2f62f9e4d.bindPopup(popup_a498e1ddf77bf14b871e6f85f1a1f4ab)
+        ;
+
+        
+    
+    
+            var marker_e09a05bbede0a191bb485253f33e3ff0 = L.marker(
+                [37.25022, -119.75126],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_2632ce44a3f46fc0fa66f7ab85fe7de1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f6a12881825cbd3ea6b7f9f69b31641f = $(`<div id="html_f6a12881825cbd3ea6b7f9f69b31641f" style="width: 100.0%; height: 100.0%;"><b>mention</b>: California<br><b>selected_name</b>: California, United States<br><b>application_context</b>: Hydraulic flow and structures<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_2632ce44a3f46fc0fa66f7ab85fe7de1.setContent(html_f6a12881825cbd3ea6b7f9f69b31641f);
+            
+        
+
+        marker_e09a05bbede0a191bb485253f33e3ff0.bindPopup(popup_2632ce44a3f46fc0fa66f7ab85fe7de1)
+        ;
+
+        
+    
+    
+            var marker_053348a0f96581554b9034e335cbf8b4 = L.marker(
+                [37.25022, -119.75126],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_23fb6def7d60c1f17ad8fc1c5ee4dc9e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_060df79131f8d3ed31029df74f2b4916 = $(`<div id="html_060df79131f8d3ed31029df74f2b4916" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Basin-Wide Feasibility<br><b>selected_name</b>: California, United States<br><b>application_context</b>: Hydraulic flow and structures<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_23fb6def7d60c1f17ad8fc1c5ee4dc9e.setContent(html_060df79131f8d3ed31029df74f2b4916);
+            
+        
+
+        marker_053348a0f96581554b9034e335cbf8b4.bindPopup(popup_23fb6def7d60c1f17ad8fc1c5ee4dc9e)
+        ;
+
+        
+    
+    
+            var marker_c1d8918660145e98bce65c05fb657afe = L.marker(
+                [38.44932, -121.34424],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_3dc57349015b54168124c0453735dc70 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1da7d0e04a8e131818d390193f767f72 = $(`<div id="html_1da7d0e04a8e131818d390193f767f72" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Sacramento<br><b>selected_name</b>: Sacramento, Sacramento County, California, United States<br><b>application_context</b>: Hydraulic flow and structures<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_3dc57349015b54168124c0453735dc70.setContent(html_1da7d0e04a8e131818d390193f767f72);
+            
+        
+
+        marker_c1d8918660145e98bce65c05fb657afe.bindPopup(popup_3dc57349015b54168124c0453735dc70)
+        ;
+
+        
+    
+    
+            var marker_72190638b5c89dd7545f036ce7b4773a = L.marker(
+                [31.332920308599295, -91.50974030763724],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_a39736ce40df59e44e7c085e085ee6f3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_88a53097439e2b2d951473ae631c9009 = $(`<div id="html_88a53097439e2b2d951473ae631c9009" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Mississippi River Basin's<br><b>selected_name</b>: Mississippi River Basin, United States<br><b>application_context</b>: Hydraulic flow and structures<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_a39736ce40df59e44e7c085e085ee6f3.setContent(html_88a53097439e2b2d951473ae631c9009);
+            
+        
+
+        marker_72190638b5c89dd7545f036ce7b4773a.bindPopup(popup_a39736ce40df59e44e7c085e085ee6f3)
+        ;
+
+        
+    
+    
+            var marker_ec9d6f3eda8ddc12d25387d6182a6501 = L.marker(
+                [-0.989818181999965, 113.91586500000005],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_e064dd84efd6dbe93a49f6f0b4f3322d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fea8c6f0cd0fde999ea272acb4b637f9 = $(`<div id="html_fea8c6f0cd0fde999ea272acb4b637f9" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Sen1Floods11<br><b>selected_name</b>: Sen1Floods11, Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_e064dd84efd6dbe93a49f6f0b4f3322d.setContent(html_fea8c6f0cd0fde999ea272acb4b637f9);
+            
+        
+
+        marker_ec9d6f3eda8ddc12d25387d6182a6501.bindPopup(popup_e064dd84efd6dbe93a49f6f0b4f3322d)
+        ;
+
+        
+    
+    
+            var marker_1f6cf5b07f1f4450b5682643de8846b4 = L.marker(
+                [-5.93833, 106.99333],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_eae22593a971e8d84e4c361a3818d858 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_db7d6186ccef4e3bc994c5e382e3b255 = $(`<div id="html_db7d6186ccef4e3bc994c5e382e3b255" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Citarum River<br><b>selected_name</b>: Citarum River, West Java, Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_eae22593a971e8d84e4c361a3818d858.setContent(html_db7d6186ccef4e3bc994c5e382e3b255);
+            
+        
+
+        marker_1f6cf5b07f1f4450b5682643de8846b4.bindPopup(popup_eae22593a971e8d84e4c361a3818d858)
+        ;
+
+        
+    
+    
+            var marker_5405cea6309fe15007fe68940cce5e69 = L.marker(
+                [-5.0, 120.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_39a317f77d02b888530fa06c36def55c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5271f45f35ca6c8223c8c62fc7791b03 = $(`<div id="html_5271f45f35ca6c8223c8c62fc7791b03" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Indonesia<br><b>selected_name</b>: Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_39a317f77d02b888530fa06c36def55c.setContent(html_5271f45f35ca6c8223c8c62fc7791b03);
+            
+        
+
+        marker_5405cea6309fe15007fe68940cce5e69.bindPopup(popup_39a317f77d02b888530fa06c36def55c)
+        ;
+
+        
+    
+    
+            var marker_38fba501980960071f0092e884b61a85 = L.marker(
+                [52.16045, -0.70312],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_bf9fc4ec5a01c44c73f7881b4a3a77f6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7eacc025a07fda32cb8cf22a6f10c784 = $(`<div id="html_7eacc025a07fda32cb8cf22a6f10c784" style="width: 100.0%; height: 100.0%;"><b>mention</b>: England<br><b>selected_name</b>: England, United Kingdom<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_bf9fc4ec5a01c44c73f7881b4a3a77f6.setContent(html_7eacc025a07fda32cb8cf22a6f10c784);
+            
+        
+
+        marker_38fba501980960071f0092e884b61a85.bindPopup(popup_bf9fc4ec5a01c44c73f7881b4a3a77f6)
+        ;
+
+        
+    
+    
+            var marker_32d2af7c911484deede9170c74ca4a64 = L.marker(
+                [52.25, 5.75],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_33746e553077fdc37e0dcf2794c190fa = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1b56290e5fa628a9a4852a2c275fb103 = $(`<div id="html_1b56290e5fa628a9a4852a2c275fb103" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Netherlands<br><b>selected_name</b>: Netherlands<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_33746e553077fdc37e0dcf2794c190fa.setContent(html_1b56290e5fa628a9a4852a2c275fb103);
+            
+        
+
+        marker_32d2af7c911484deede9170c74ca4a64.bindPopup(popup_33746e553077fdc37e0dcf2794c190fa)
+        ;
+
+        
+    
+    
+            var marker_edfa06b15810d5b37162c95e7aa9b247 = L.marker(
+                [35.0, 105.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_35cd7bc1af89610564490f2d84e82df2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_796261327825a11955f5e297620b4735 = $(`<div id="html_796261327825a11955f5e297620b4735" style="width: 100.0%; height: 100.0%;"><b>mention</b>: China<br><b>selected_name</b>: China<br><b>application_context</b>: Aquatic and Environmental Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_35cd7bc1af89610564490f2d84e82df2.setContent(html_796261327825a11955f5e297620b4735);
+            
+        
+
+        marker_edfa06b15810d5b37162c95e7aa9b247.bindPopup(popup_35cd7bc1af89610564490f2d84e82df2)
+        ;
+
+        
+    
+    
+            var marker_a1ab236543c04be17f97d55b9cd39d39 = L.marker(
+                [29.73576, -95.3064],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_a752b0d64bb6bd1030ff0ec960f60d15 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_483f145340ac8098107d782e17f99686 = $(`<div id="html_483f145340ac8098107d782e17f99686" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Houston<br><b>selected_name</b>: Houston, Harris County, Texas, United States<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_a752b0d64bb6bd1030ff0ec960f60d15.setContent(html_483f145340ac8098107d782e17f99686);
+            
+        
+
+        marker_a1ab236543c04be17f97d55b9cd39d39.bindPopup(popup_a752b0d64bb6bd1030ff0ec960f60d15)
+        ;
+
+        
+    
+    
+            var marker_646df168d24c1a76f9f60b5ec99f1a0f = L.marker(
+                [29.7608026, -95.3695062],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_4193ecf9d94a05dcd66557f53b299cda = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_767570b2b6cb70eac2a58dcb1cb4a797 = $(`<div id="html_767570b2b6cb70eac2a58dcb1cb4a797" style="width: 100.0%; height: 100.0%;"><b>mention</b>: F1<br><b>selected_name</b>: F1, Houston, Harris County, Texas, United States<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_4193ecf9d94a05dcd66557f53b299cda.setContent(html_767570b2b6cb70eac2a58dcb1cb4a797);
+            
+        
+
+        marker_646df168d24c1a76f9f60b5ec99f1a0f.bindPopup(popup_4193ecf9d94a05dcd66557f53b299cda)
+        ;
+
+        
+    
+    
+            var marker_c4a193978dc1f818b5e59500d807700c = L.marker(
+                [32.5, 1.16667],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_33a3e17a4e4faf29495071be2bf83f9b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5211d778e0ff8eae1718bff520a05af5 = $(`<div id="html_5211d778e0ff8eae1718bff520a05af5" style="width: 100.0%; height: 100.0%;"><b>mention</b>: El Bayadh City<br><b>selected_name</b>: El Bayadh, Algeria<br><b>application_context</b>: Reservoir Engineering and Simulation Methods<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_33a3e17a4e4faf29495071be2bf83f9b.setContent(html_5211d778e0ff8eae1718bff520a05af5);
+            
+        
+
+        marker_c4a193978dc1f818b5e59500d807700c.bindPopup(popup_33a3e17a4e4faf29495071be2bf83f9b)
+        ;
+
+        
+    
+    
+            var marker_42732d24d709495900aa80d70e422ec9 = L.marker(
+                [28.0, 3.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_26146e9d1cd0049ed42ec845e84b2b44 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_98fc8dc828c90c831974519c8c016cf7 = $(`<div id="html_98fc8dc828c90c831974519c8c016cf7" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Algeria<br><b>selected_name</b>: Algeria<br><b>application_context</b>: Reservoir Engineering and Simulation Methods<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_26146e9d1cd0049ed42ec845e84b2b44.setContent(html_98fc8dc828c90c831974519c8c016cf7);
+            
+        
+
+        marker_42732d24d709495900aa80d70e422ec9.bindPopup(popup_26146e9d1cd0049ed42ec845e84b2b44)
+        ;
+
+        
+    
+    
+            var marker_55a898df41ca8e37a150f43a0adb75a3 = L.marker(
+                [31.596680870000057, 130.55738926000004],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_5dc53e5d0021e63dfca58450c3e6a673 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ae37a2df8d30e41e1ebfa497a05f78c7 = $(`<div id="html_ae37a2df8d30e41e1ebfa497a05f78c7" style="width: 100.0%; height: 100.0%;"><b>mention</b>: 田んぼダムの実施により<br><b>selected_name</b>: Tandabu Dam, Kagoshima, Japan<br><b>application_context</b>: Rice Cultivation and Yield Improvement<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_5dc53e5d0021e63dfca58450c3e6a673.setContent(html_ae37a2df8d30e41e1ebfa497a05f78c7);
+            
+        
+
+        marker_55a898df41ca8e37a150f43a0adb75a3.bindPopup(popup_5dc53e5d0021e63dfca58450c3e6a673)
+        ;
+
+        
+    
+    
+            var marker_e7f1f06f546306c0b89d516cb6b8dab4 = L.marker(
+                [-6.2, 106.83333],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_0835ac4a7690e3fa0296c5d8b73b4bfb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a02035f4274ffc03f84f568e43f81991 = $(`<div id="html_a02035f4274ffc03f84f568e43f81991" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Jakarta<br><b>selected_name</b>: Jakarta, Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_0835ac4a7690e3fa0296c5d8b73b4bfb.setContent(html_a02035f4274ffc03f84f568e43f81991);
+            
+        
+
+        marker_e7f1f06f546306c0b89d516cb6b8dab4.bindPopup(popup_0835ac4a7690e3fa0296c5d8b73b4bfb)
+        ;
+
+        
+    
+    
+            var marker_27d411d1246fbccd924469b9342e8857 = L.marker(
+                [-5.0, 120.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_3c0cbdb79a2ac17aabeb03ddf76ff5df = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ea34cd6ee50cc47fd0b2f8a6c6ffa4e9 = $(`<div id="html_ea34cd6ee50cc47fd0b2f8a6c6ffa4e9" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Indonesia<br><b>selected_name</b>: Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_3c0cbdb79a2ac17aabeb03ddf76ff5df.setContent(html_ea34cd6ee50cc47fd0b2f8a6c6ffa4e9);
+            
+        
+
+        marker_27d411d1246fbccd924469b9342e8857.bindPopup(popup_3c0cbdb79a2ac17aabeb03ddf76ff5df)
+        ;
+
+        
+    
+    
+            var marker_ca190e8887befdeca167d208cab92d41 = L.marker(
+                [-6.2, 106.83333],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_afc6dba510115f056d3e462e931ee242 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bc9cbe14d1471c8ec580fa603125fa1a = $(`<div id="html_bc9cbe14d1471c8ec580fa603125fa1a" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Jakarta<br><b>selected_name</b>: Jakarta, Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_afc6dba510115f056d3e462e931ee242.setContent(html_bc9cbe14d1471c8ec580fa603125fa1a);
+            
+        
+
+        marker_ca190e8887befdeca167d208cab92d41.bindPopup(popup_afc6dba510115f056d3e462e931ee242)
+        ;
+
+        
+    
+    
+            var marker_d45f34b3123dea26b39450da05af561b = L.marker(
+                [-6.2, 106.83333],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_775634204348d710ebba6cdc26cd9dfd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_864851c7ffe2ea84a93f4b8f70616a54 = $(`<div id="html_864851c7ffe2ea84a93f4b8f70616a54" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Jakarta<br><b>selected_name</b>: Jakarta, Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_775634204348d710ebba6cdc26cd9dfd.setContent(html_864851c7ffe2ea84a93f4b8f70616a54);
+            
+        
+
+        marker_d45f34b3123dea26b39450da05af561b.bindPopup(popup_775634204348d710ebba6cdc26cd9dfd)
+        ;
+
+        
+    
+    
+            var marker_536f30fa042a18f24f5097b0f9b1af95 = L.marker(
+                [-6.2, 106.83333],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_dad500c4d79ee3fb6bcde5aa132e76b6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a83ae7b1c9a5723117d1d0bf0e2b89f0 = $(`<div id="html_a83ae7b1c9a5723117d1d0bf0e2b89f0" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Jakarta<br><b>selected_name</b>: Jakarta, Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_dad500c4d79ee3fb6bcde5aa132e76b6.setContent(html_a83ae7b1c9a5723117d1d0bf0e2b89f0);
+            
+        
+
+        marker_536f30fa042a18f24f5097b0f9b1af95.bindPopup(popup_dad500c4d79ee3fb6bcde5aa132e76b6)
+        ;
+
+        
+    
+    
+            var marker_bd6539f7ff6a24aa4d1dfa11940d4ea5 = L.marker(
+                [-6.2, 106.83333],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_c54b91fac3c98354b3c1b8da536acdc7 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d540af83baaf0fceb49010f6bebaf878 = $(`<div id="html_d540af83baaf0fceb49010f6bebaf878" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Jakarta<br><b>selected_name</b>: Jakarta, Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_c54b91fac3c98354b3c1b8da536acdc7.setContent(html_d540af83baaf0fceb49010f6bebaf878);
+            
+        
+
+        marker_bd6539f7ff6a24aa4d1dfa11940d4ea5.bindPopup(popup_c54b91fac3c98354b3c1b8da536acdc7)
+        ;
+
+        
+    
+    
+            var marker_6c4cb8f3e97bc6c116ffbd7d534af09b = L.marker(
+                [-6.2, 106.83333],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_2f38d865ef442181dd3215705d47efa5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1b7a09d7d9a3d6100b9b953e86d235e2 = $(`<div id="html_1b7a09d7d9a3d6100b9b953e86d235e2" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Jakarta<br><b>selected_name</b>: Jakarta, Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_2f38d865ef442181dd3215705d47efa5.setContent(html_1b7a09d7d9a3d6100b9b953e86d235e2);
+            
+        
+
+        marker_6c4cb8f3e97bc6c116ffbd7d534af09b.bindPopup(popup_2f38d865ef442181dd3215705d47efa5)
+        ;
+
+        
+    
+    
+            var marker_a8b9af3a3bde96a0f0ad7d5b8c6cfc12 = L.marker(
+                [-6.2, 106.83333],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_747493104005a6a127e1522300ae6d69 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f8eea7f64f5b89de51b6a99021cf5a22 = $(`<div id="html_f8eea7f64f5b89de51b6a99021cf5a22" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Jakarta<br><b>selected_name</b>: Jakarta, Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_747493104005a6a127e1522300ae6d69.setContent(html_f8eea7f64f5b89de51b6a99021cf5a22);
+            
+        
+
+        marker_a8b9af3a3bde96a0f0ad7d5b8c6cfc12.bindPopup(popup_747493104005a6a127e1522300ae6d69)
+        ;
+
+        
+    
+    
+            var marker_6a615d40a7b47231f984a74c04219513 = L.marker(
+                [-6.2, 106.83333],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_dc2201d1d4096a7f0faef2d1106ec6c6 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f0b9552b26e0fa8fec757dbf5c4cee71 = $(`<div id="html_f0b9552b26e0fa8fec757dbf5c4cee71" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Jakarta<br><b>selected_name</b>: Jakarta, Indonesia<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_dc2201d1d4096a7f0faef2d1106ec6c6.setContent(html_f0b9552b26e0fa8fec757dbf5c4cee71);
+            
+        
+
+        marker_6a615d40a7b47231f984a74c04219513.bindPopup(popup_dc2201d1d4096a7f0faef2d1106ec6c6)
+        ;
+
+        
+    
+    
+            var marker_2447a49a0c71772131e9c73a12b7983c = L.marker(
+                [28.0, 3.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_2d66d89dedb5e165d0182d1b9c9fbd01 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_591873c261b5521e388ac9d52c8706d0 = $(`<div id="html_591873c261b5521e388ac9d52c8706d0" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Eastern Algeria<br><b>selected_name</b>: Algeria<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_2d66d89dedb5e165d0182d1b9c9fbd01.setContent(html_591873c261b5521e388ac9d52c8706d0);
+            
+        
+
+        marker_2447a49a0c71772131e9c73a12b7983c.bindPopup(popup_2d66d89dedb5e165d0182d1b9c9fbd01)
+        ;
+
+        
+    
+    
+            var marker_9f81b8d6a593b7a0018bdd2a54f6f8ef = L.marker(
+                [36.0, 67.66667],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_e4d1bb25a276c38070694734570f5b65 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_417833647587466ec8ca983d578e0388 = $(`<div id="html_417833647587466ec8ca983d578e0388" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Samangan Province<br><b>selected_name</b>: Samangan Province, Afghanistan<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_e4d1bb25a276c38070694734570f5b65.setContent(html_417833647587466ec8ca983d578e0388);
+            
+        
+
+        marker_9f81b8d6a593b7a0018bdd2a54f6f8ef.bindPopup(popup_e4d1bb25a276c38070694734570f5b65)
+        ;
+
+        
+    
+    
+            var marker_b1cc1619412dfa37f7b6756a59092d2e = L.marker(
+                [33.0, 66.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_5d09e06504931262d582e788f3d60283 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f920ce68ae325f1d9073f3217bbd1cd3 = $(`<div id="html_f920ce68ae325f1d9073f3217bbd1cd3" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Afghanistan<br><b>selected_name</b>: Afghanistan<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_5d09e06504931262d582e788f3d60283.setContent(html_f920ce68ae325f1d9073f3217bbd1cd3);
+            
+        
+
+        marker_b1cc1619412dfa37f7b6756a59092d2e.bindPopup(popup_5d09e06504931262d582e788f3d60283)
+        ;
+
+        
+    
+    
+            var marker_b6168ac312c262c52d9ec20e3854f460 = L.marker(
+                [17.4122607, 78.4304989],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_292a4cef7cccac79f1baee993e989571 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_eb1780c3328cdca1e88439e68b63cce9 = $(`<div id="html_eb1780c3328cdca1e88439e68b63cce9" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Google Earth<br><b>selected_name</b>: Google Earth<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_292a4cef7cccac79f1baee993e989571.setContent(html_eb1780c3328cdca1e88439e68b63cce9);
+            
+        
+
+        marker_b6168ac312c262c52d9ec20e3854f460.bindPopup(popup_292a4cef7cccac79f1baee993e989571)
+        ;
+
+        
+    
+    
+            var marker_30510cc3744c5da5c33a83a51f2fb073 = L.marker(
+                [23.5, 113.25],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_defd16d43187096feae4cfe50f141051 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b1904a4eed60c27ccd254a30a56f7418 = $(`<div id="html_b1904a4eed60c27ccd254a30a56f7418" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Greater Bay Area<br><b>selected_name</b>: Guangdong, China<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_defd16d43187096feae4cfe50f141051.setContent(html_b1904a4eed60c27ccd254a30a56f7418);
+            
+        
+
+        marker_30510cc3744c5da5c33a83a51f2fb073.bindPopup(popup_defd16d43187096feae4cfe50f141051)
+        ;
+
+        
+    
+    
+            var marker_b8b8e0a0ae15b9f9ec9816c4958eedbb = L.marker(
+                [35.0, 105.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_3486f48b32d8c467fef3fa8e8b5fdb26 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_99b3a6a8f39a2da76b5d470f4868fdd6 = $(`<div id="html_99b3a6a8f39a2da76b5d470f4868fdd6" style="width: 100.0%; height: 100.0%;"><b>mention</b>: China<br><b>selected_name</b>: China<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_3486f48b32d8c467fef3fa8e8b5fdb26.setContent(html_99b3a6a8f39a2da76b5d470f4868fdd6);
+            
+        
+
+        marker_b8b8e0a0ae15b9f9ec9816c4958eedbb.bindPopup(popup_3486f48b32d8c467fef3fa8e8b5fdb26)
+        ;
+
+        
+    
+    
+            var marker_88a3b4561f8ef343a290b61761a72e46 = L.marker(
+                [52.235605, 21.008778],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_0f4ac896fac8ca88720b22bf4cf91d94 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c1e0d6d47791d8695e99c6705146f65e = $(`<div id="html_c1e0d6d47791d8695e99c6705146f65e" style="width: 100.0%; height: 100.0%;"><b>mention</b>: −0.40<br><b>selected_name</b>: -0.40<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_0f4ac896fac8ca88720b22bf4cf91d94.setContent(html_c1e0d6d47791d8695e99c6705146f65e);
+            
+        
+
+        marker_88a3b4561f8ef343a290b61761a72e46.bindPopup(popup_0f4ac896fac8ca88720b22bf4cf91d94)
+        ;
+
+        
+    
+    
+            var marker_64efc9e84a6bac8a9799b86154a8ed3a = L.marker(
+                [11.005900000000054, 109.16000000000008],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_0fd7a36dd056b681696dc4177cb315a4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_619b04ee1876774488f4e7a7e719f89a = $(`<div id="html_619b04ee1876774488f4e7a7e719f89a" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Mekong<br><b>selected_name</b>: Mekong River, Southeast Asia<br><b>application_context</b>: Coastal and Marine Dynamics<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_0fd7a36dd056b681696dc4177cb315a4.setContent(html_619b04ee1876774488f4e7a7e719f89a);
+            
+        
+
+        marker_64efc9e84a6bac8a9799b86154a8ed3a.bindPopup(popup_0fd7a36dd056b681696dc4177cb315a4)
+        ;
+
+        
+    
+    
+            var marker_a8dee30c5487d294163befa03bfe45a9 = L.marker(
+                [21.03498, 105.8455],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_1c396adcebf3c951948c8a8292df3db2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_31de08d161ea3cb99183c6b1e3bfa7dd = $(`<div id="html_31de08d161ea3cb99183c6b1e3bfa7dd" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Red River<br><b>selected_name</b>: Red River, Vietnam<br><b>application_context</b>: Coastal and Marine Dynamics<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_1c396adcebf3c951948c8a8292df3db2.setContent(html_31de08d161ea3cb99183c6b1e3bfa7dd);
+            
+        
+
+        marker_a8dee30c5487d294163befa03bfe45a9.bindPopup(popup_1c396adcebf3c951948c8a8292df3db2)
+        ;
+
+        
+    
+    
+            var marker_b6a3a70a18a56072946930f597cbc75c = L.marker(
+                [25.58333, 92.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_486d5000766d59adaee319a7c761b138 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_95fa02e702848f283d019c6e145af627 = $(`<div id="html_95fa02e702848f283d019c6e145af627" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Shillong Plateau<br><b>selected_name</b>: Shillong Plateau, Meghalaya, India<br><b>application_context</b>: Geological and Geochemical Analysis<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_486d5000766d59adaee319a7c761b138.setContent(html_95fa02e702848f283d019c6e145af627);
+            
+        
+
+        marker_b6a3a70a18a56072946930f597cbc75c.bindPopup(popup_486d5000766d59adaee319a7c761b138)
+        ;
+
+        
+    
+    
+            var marker_b8026103f3a928827f4d9de8f0645feb = L.marker(
+                [22.20775, 76.97021],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_44049283dcaa0cd8c6783369e1a4ffef = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_808f69bcb30e0cd507436050334f4d57 = $(`<div id="html_808f69bcb30e0cd507436050334f4d57" style="width: 100.0%; height: 100.0%;"><b>mention</b>: India<br><b>selected_name</b>: India<br><b>application_context</b>: Geological and Geochemical Analysis<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_44049283dcaa0cd8c6783369e1a4ffef.setContent(html_808f69bcb30e0cd507436050334f4d57);
+            
+        
+
+        marker_b8026103f3a928827f4d9de8f0645feb.bindPopup(popup_44049283dcaa0cd8c6783369e1a4ffef)
+        ;
+
+        
+    
+    
+            var marker_064686e19ec62ec320ca8d098d7f96ea = L.marker(
+                [30.6999925, 76.8444603],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_e47f13e40c31606ec9833d2dbc254ea0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e40b21a54bf158ed92776fd3e6b9fa2e = $(`<div id="html_e40b21a54bf158ed92776fd3e6b9fa2e" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Peninsular<br><b>selected_name</b>: Peninsular India<br><b>application_context</b>: Geological and Geochemical Analysis<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_e47f13e40c31606ec9833d2dbc254ea0.setContent(html_e40b21a54bf158ed92776fd3e6b9fa2e);
+            
+        
+
+        marker_064686e19ec62ec320ca8d098d7f96ea.bindPopup(popup_e47f13e40c31606ec9833d2dbc254ea0)
+        ;
+
+        
+    
+    
+            var marker_b6f349bcbb2816b56c596c37addd9a36 = L.marker(
+                [22.20775, 76.97021],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_cfb18ab736c3f2fdce8ee8c4641ab411 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7090df996393fb0ac0a122587f9c846c = $(`<div id="html_7090df996393fb0ac0a122587f9c846c" style="width: 100.0%; height: 100.0%;"><b>mention</b>: India<br><b>selected_name</b>: India<br><b>application_context</b>: Geological and Geochemical Analysis<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_cfb18ab736c3f2fdce8ee8c4641ab411.setContent(html_7090df996393fb0ac0a122587f9c846c);
+            
+        
+
+        marker_b6f349bcbb2816b56c596c37addd9a36.bindPopup(popup_cfb18ab736c3f2fdce8ee8c4641ab411)
+        ;
+
+        
+    
+    
+            var marker_898c7ac6ed2a84fe49e1062f95746296 = L.marker(
+                [-25.0, 135.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_85fc40d2200bf3ebc55e62f6b7a049d2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0b2c71c32d9a8a60b1fb45ffe4fac1a1 = $(`<div id="html_0b2c71c32d9a8a60b1fb45ffe4fac1a1" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Australia<br><b>selected_name</b>: Australia<br><b>application_context</b>: Geological and Geochemical Analysis<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_85fc40d2200bf3ebc55e62f6b7a049d2.setContent(html_0b2c71c32d9a8a60b1fb45ffe4fac1a1);
+            
+        
+
+        marker_898c7ac6ed2a84fe49e1062f95746296.bindPopup(popup_85fc40d2200bf3ebc55e62f6b7a049d2)
+        ;
+
+        
+    
+    
+            var marker_e9fdec57384e3b8ead0423d33fc2bae5 = L.marker(
+                [31.66667, 88.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_94b06e53f4f860a1c5c66e1fff7ab24d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0ed7a3c4382169d2ef27e723bfb216d0 = $(`<div id="html_0ed7a3c4382169d2ef27e723bfb216d0" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Tibet<br><b>selected_name</b>: Tibet Autonomous Region, China<br><b>application_context</b>: Geological and Geochemical Analysis<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_94b06e53f4f860a1c5c66e1fff7ab24d.setContent(html_0ed7a3c4382169d2ef27e723bfb216d0);
+            
+        
+
+        marker_e9fdec57384e3b8ead0423d33fc2bae5.bindPopup(popup_94b06e53f4f860a1c5c66e1fff7ab24d)
+        ;
+
+        
+    
+    
+            var marker_9bb34788651c075bbc65df31d3337fed = L.marker(
+                [-78.15856, 16.40626],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_f40f44edb608b037199a8bc6fafa3866 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3f7a4ec8bf8d6eb5f958ac24ac7156ca = $(`<div id="html_3f7a4ec8bf8d6eb5f958ac24ac7156ca" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Antarctica<br><b>selected_name</b>: Antarctica<br><b>application_context</b>: Geological and Geochemical Analysis<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_f40f44edb608b037199a8bc6fafa3866.setContent(html_3f7a4ec8bf8d6eb5f958ac24ac7156ca);
+            
+        
+
+        marker_9bb34788651c075bbc65df31d3337fed.bindPopup(popup_f40f44edb608b037199a8bc6fafa3866)
+        ;
+
+        
+    
+    
+            var marker_767366750e3860358803a562b8075f23 = L.marker(
+                [-25.0, 135.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_6552efdec4e1a6f14ea3e83d09d95e1b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0521dffc0de8dd305c2cf3824a1a8512 = $(`<div id="html_0521dffc0de8dd305c2cf3824a1a8512" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Australia<br><b>selected_name</b>: Australia<br><b>application_context</b>: Geological and Geochemical Analysis<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_6552efdec4e1a6f14ea3e83d09d95e1b.setContent(html_0521dffc0de8dd305c2cf3824a1a8512);
+            
+        
+
+        marker_767366750e3860358803a562b8075f23.bindPopup(popup_6552efdec4e1a6f14ea3e83d09d95e1b)
+        ;
+
+        
+    
+    
+            var marker_46ac34a64dd1b946176763124e05ea14 = L.marker(
+                [9.925947009872175, 78.12735523412432],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_a54fe3d2b5684a7d96ac3cf6911623c5 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_df60283338968188b7c0b11c327b37fa = $(`<div id="html_df60283338968188b7c0b11c327b37fa" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Vaigai River Basin<br><b>selected_name</b>: Vaigai River Basin, Tamil Nadu, India<br><b>application_context</b>: Geology and Paleoclimatology Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_a54fe3d2b5684a7d96ac3cf6911623c5.setContent(html_df60283338968188b7c0b11c327b37fa);
+            
+        
+
+        marker_46ac34a64dd1b946176763124e05ea14.bindPopup(popup_a54fe3d2b5684a7d96ac3cf6911623c5)
+        ;
+
+        
+    
+    
+            var marker_4ac5bfdf754caa46624186c6877bc272 = L.marker(
+                [-26.21891, 28.16039],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_653566d5a813ef1096e8dc11d940824b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a2140e4a5ba10c2e8b7d463a1927050a = $(`<div id="html_a2140e4a5ba10c2e8b7d463a1927050a" style="width: 100.0%; height: 100.0%;"><b>mention</b>: South India<br><b>selected_name</b>: South India<br><b>application_context</b>: Geology and Paleoclimatology Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_653566d5a813ef1096e8dc11d940824b.setContent(html_a2140e4a5ba10c2e8b7d463a1927050a);
+            
+        
+
+        marker_4ac5bfdf754caa46624186c6877bc272.bindPopup(popup_653566d5a813ef1096e8dc11d940824b)
+        ;
+
+        
+    
+    
+            var marker_14e4e6f3b8ba39365795d612d5806870 = L.marker(
+                [36.33333, 118.25],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_18024ad4d1511652aa1b560f8a381afb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e72232589cb2df913ec8cdb873e12c7b = $(`<div id="html_e72232589cb2df913ec8cdb873e12c7b" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Shandong Province<br><b>selected_name</b>: Shandong, China<br><b>application_context</b>: Blasting Impact and Analysis<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_18024ad4d1511652aa1b560f8a381afb.setContent(html_e72232589cb2df913ec8cdb873e12c7b);
+            
+        
+
+        marker_14e4e6f3b8ba39365795d612d5806870.bindPopup(popup_18024ad4d1511652aa1b560f8a381afb)
+        ;
+
+        
+    
+    
+            var marker_97cad87edffebde1ebce87b975a59f7b = L.marker(
+                [25.72055000000006, 112.57647000000009],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_43a6f407565e82c6ccd8ca9f77d21a47 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_863d6042f86247219814a7d36972c167 = $(`<div id="html_863d6042f86247219814a7d36972c167" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Guanshan River Basin<br><b>selected_name</b>: Guanshan River Basin, Hunan, China<br><b>application_context</b>: Soil and Water Nutrient Dynamics<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_43a6f407565e82c6ccd8ca9f77d21a47.setContent(html_863d6042f86247219814a7d36972c167);
+            
+        
+
+        marker_97cad87edffebde1ebce87b975a59f7b.bindPopup(popup_43a6f407565e82c6ccd8ca9f77d21a47)
+        ;
+
+        
+    
+    
+            var marker_84c02ff542676533e334e7d569e21e0a = L.marker(
+                [25.72055000000006, 112.57647000000009],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_44d0ab55037a2ee8cab1e557d1d54c69 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4dec3482518dd60bb057374c7c21347a = $(`<div id="html_4dec3482518dd60bb057374c7c21347a" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Guanshan River Basin<br><b>selected_name</b>: Guanshan River Basin, Hunan, China<br><b>application_context</b>: Soil and Water Nutrient Dynamics<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_44d0ab55037a2ee8cab1e557d1d54c69.setContent(html_4dec3482518dd60bb057374c7c21347a);
+            
+        
+
+        marker_84c02ff542676533e334e7d569e21e0a.bindPopup(popup_44d0ab55037a2ee8cab1e557d1d54c69)
+        ;
+
+        
+    
+    
+            var marker_4963ca6158d3ac612c64b005718596a9 = L.marker(
+                [51.5, 10.5],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_c1699c5571b3c55e7ab3bbe93dd46b92 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_bebf5e806d4291355870b3ededc2c6e9 = $(`<div id="html_bebf5e806d4291355870b3ededc2c6e9" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Germany<br><b>selected_name</b>: Germany<br><b>application_context</b>: Sustainability and Climate Change Governance<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_c1699c5571b3c55e7ab3bbe93dd46b92.setContent(html_bebf5e806d4291355870b3ededc2c6e9);
+            
+        
+
+        marker_4963ca6158d3ac612c64b005718596a9.bindPopup(popup_c1699c5571b3c55e7ab3bbe93dd46b92)
+        ;
+
+        
+    
+    
+            var marker_03fbe38df5702acd004fbff01f779563 = L.marker(
+                [48.69096, 9.14062],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_473257876b5d28bec3192aeb52523f0e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_721b68ee4538ef7b96f14ca0aafe8d78 = $(`<div id="html_721b68ee4538ef7b96f14ca0aafe8d78" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Europe<br><b>selected_name</b>: Europe<br><b>application_context</b>: Sustainability and Climate Change Governance<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_473257876b5d28bec3192aeb52523f0e.setContent(html_721b68ee4538ef7b96f14ca0aafe8d78);
+            
+        
+
+        marker_03fbe38df5702acd004fbff01f779563.bindPopup(popup_473257876b5d28bec3192aeb52523f0e)
+        ;
+
+        
+    
+    
+            var marker_518347db24338bf264634a7a7dc5bc4b = L.marker(
+                [51.5, 10.5],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_6402248149d179f3e7d4774c071daf26 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7cf430e1ce1910f13c4ebc9f159fb498 = $(`<div id="html_7cf430e1ce1910f13c4ebc9f159fb498" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Germany<br><b>selected_name</b>: Germany<br><b>application_context</b>: Sustainability and Climate Change Governance<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_6402248149d179f3e7d4774c071daf26.setContent(html_7cf430e1ce1910f13c4ebc9f159fb498);
+            
+        
+
+        marker_518347db24338bf264634a7a7dc5bc4b.bindPopup(popup_6402248149d179f3e7d4774c071daf26)
+        ;
+
+        
+    
+    
+            var marker_9ca8fe17351acb6172edf3679a031a29 = L.marker(
+                [54.75844, -2.69531],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_f40a4ebd165fd6d5d01ac97a21a17846 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_88cc81f07f345508675325f01232fa30 = $(`<div id="html_88cc81f07f345508675325f01232fa30" style="width: 100.0%; height: 100.0%;"><b>mention</b>: UK<br><b>selected_name</b>: United Kingdom<br><b>application_context</b>: Soil Management and Crop Yield<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_f40a4ebd165fd6d5d01ac97a21a17846.setContent(html_88cc81f07f345508675325f01232fa30);
+            
+        
+
+        marker_9ca8fe17351acb6172edf3679a031a29.bindPopup(popup_f40a4ebd165fd6d5d01ac97a21a17846)
+        ;
+
+        
+    
+    
+            var marker_700b044e022d1b83af0520dbaf30b251 = L.marker(
+                [54.75844, -2.69531],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_af4e335610c54ff457785cdb93cf10e3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_856a1912dab498d4736c3f4956346311 = $(`<div id="html_856a1912dab498d4736c3f4956346311" style="width: 100.0%; height: 100.0%;"><b>mention</b>: UK<br><b>selected_name</b>: United Kingdom<br><b>application_context</b>: Soil Management and Crop Yield<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_af4e335610c54ff457785cdb93cf10e3.setContent(html_856a1912dab498d4736c3f4956346311);
+            
+        
+
+        marker_700b044e022d1b83af0520dbaf30b251.bindPopup(popup_af4e335610c54ff457785cdb93cf10e3)
+        ;
+
+        
+    
+    
+            var marker_2a3987e59ce7d0aa222a4702753b0599 = L.marker(
+                [54.75844, -2.69531],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_cb854ad508217be696fc32b80c39525d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f71cb0ce95e9d528b1d1e70332967ff9 = $(`<div id="html_f71cb0ce95e9d528b1d1e70332967ff9" style="width: 100.0%; height: 100.0%;"><b>mention</b>: UK<br><b>selected_name</b>: United Kingdom<br><b>application_context</b>: Soil Management and Crop Yield<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_cb854ad508217be696fc32b80c39525d.setContent(html_f71cb0ce95e9d528b1d1e70332967ff9);
+            
+        
+
+        marker_2a3987e59ce7d0aa222a4702753b0599.bindPopup(popup_cb854ad508217be696fc32b80c39525d)
+        ;
+
+        
+    
+    
+            var marker_f466368f2a40e14b777da7e3fb794482 = L.marker(
+                [54.75844, -2.69531],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_20508fc5c007cb23f4e88b2c39711fda = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0456904ebdb6d81a556eabb7c4963f83 = $(`<div id="html_0456904ebdb6d81a556eabb7c4963f83" style="width: 100.0%; height: 100.0%;"><b>mention</b>: UK<br><b>selected_name</b>: United Kingdom<br><b>application_context</b>: Soil Management and Crop Yield<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_20508fc5c007cb23f4e88b2c39711fda.setContent(html_0456904ebdb6d81a556eabb7c4963f83);
+            
+        
+
+        marker_f466368f2a40e14b777da7e3fb794482.bindPopup(popup_20508fc5c007cb23f4e88b2c39711fda)
+        ;
+
+        
+    
+    
+            var marker_680cc63c1fce327319f885121127157d = L.marker(
+                [5.75, 0.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_894ec1d5b07b5fd72f1d6cb231c09222 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1ede52f11aeb847b5ec36255ec7edac2 = $(`<div id="html_1ede52f11aeb847b5ec36255ec7edac2" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Greater Accra<br><b>selected_name</b>: Greater Accra Region, Ghana<br><b>application_context</b>: Hydrology and Watershed Management Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_894ec1d5b07b5fd72f1d6cb231c09222.setContent(html_1ede52f11aeb847b5ec36255ec7edac2);
+            
+        
+
+        marker_680cc63c1fce327319f885121127157d.bindPopup(popup_894ec1d5b07b5fd72f1d6cb231c09222)
+        ;
+
+        
+    
+    
+            var marker_77cb858a4be686b493f39cee2bc5ae76 = L.marker(
+                [8.1, -1.2],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_cfabd11dc909862ae12f992cbcd1017d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_874ae98e7946372cf5195df0253097ea = $(`<div id="html_874ae98e7946372cf5195df0253097ea" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Ghana<br><b>selected_name</b>: Ghana<br><b>application_context</b>: Hydrology and Watershed Management Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_cfabd11dc909862ae12f992cbcd1017d.setContent(html_874ae98e7946372cf5195df0253097ea);
+            
+        
+
+        marker_77cb858a4be686b493f39cee2bc5ae76.bindPopup(popup_cfabd11dc909862ae12f992cbcd1017d)
+        ;
+
+        
+    
+    
+            var marker_39c21e4182d352b05da3a2879c8e2309 = L.marker(
+                [5.510220000000061, -0.3213899999999512],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_9845264d69b585a7922289b83c5f6048 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_247d3213128ab91b5c7b32c4ec584cea = $(`<div id="html_247d3213128ab91b5c7b32c4ec584cea" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Densu River Basin<br><b>selected_name</b>: Densu River Basin, Ghana<br><b>application_context</b>: Hydrology and Watershed Management Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_9845264d69b585a7922289b83c5f6048.setContent(html_247d3213128ab91b5c7b32c4ec584cea);
+            
+        
+
+        marker_39c21e4182d352b05da3a2879c8e2309.bindPopup(popup_9845264d69b585a7922289b83c5f6048)
+        ;
+
+        
+    
+    
+            var marker_bb6cfec8cf579c04c8f047c198cb2991 = L.marker(
+                [8.1, -1.2],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_6a9d4cda43fffd83bad717de341477f8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c24fca814573059ddfaa1938c4d55c3c = $(`<div id="html_c24fca814573059ddfaa1938c4d55c3c" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Ghana<br><b>selected_name</b>: Ghana<br><b>application_context</b>: Hydrology and Watershed Management Studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_6a9d4cda43fffd83bad717de341477f8.setContent(html_c24fca814573059ddfaa1938c4d55c3c);
+            
+        
+
+        marker_bb6cfec8cf579c04c8f047c198cb2991.bindPopup(popup_6a9d4cda43fffd83bad717de341477f8)
+        ;
+
+        
+    
+    
+            var marker_83aa7b592fbf8a9bfb9bab1ef428408f = L.marker(
+                [37.76158, 119.09834],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_7d2b8fcfc4043e49a588b6be90a3adef = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f662aa994e048d2f919c71119ed0605d = $(`<div id="html_f662aa994e048d2f919c71119ed0605d" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Yellow River<br><b>selected_name</b>: Yellow River, China<br><b>application_context</b>: Arctic and Antarctic ice dynamics<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_7d2b8fcfc4043e49a588b6be90a3adef.setContent(html_f662aa994e048d2f919c71119ed0605d);
+            
+        
+
+        marker_83aa7b592fbf8a9bfb9bab1ef428408f.bindPopup(popup_7d2b8fcfc4043e49a588b6be90a3adef)
+        ;
+
+        
+    
+    
+            var marker_1174037b28153998aa5a315204208769 = L.marker(
+                [34.6334178, -85.8774747],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_585dcbf3caf96ed69d2e97b8131f9b5f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_205d27c998e0eceede1a878e1c9c7123 = $(`<div id="html_205d27c998e0eceede1a878e1c9c7123" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the River Ice Recognition Index<br><b>selected_name</b>: River Ice Recognition Index<br><b>application_context</b>: Arctic and Antarctic ice dynamics<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_585dcbf3caf96ed69d2e97b8131f9b5f.setContent(html_205d27c998e0eceede1a878e1c9c7123);
+            
+        
+
+        marker_1174037b28153998aa5a315204208769.bindPopup(popup_585dcbf3caf96ed69d2e97b8131f9b5f)
+        ;
+
+        
+    
+    
+            var marker_24df31acd375402d62e58e826b841e1b = L.marker(
+                [37.76158, 119.09834],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_136452daabb28c349a755e18cb40f7fd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_dc8886d2a7867dfa878581d6d653d300 = $(`<div id="html_dc8886d2a7867dfa878581d6d653d300" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Yellow River<br><b>selected_name</b>: Yellow River, China<br><b>application_context</b>: Arctic and Antarctic ice dynamics<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_136452daabb28c349a755e18cb40f7fd.setContent(html_dc8886d2a7867dfa878581d6d653d300);
+            
+        
+
+        marker_24df31acd375402d62e58e826b841e1b.bindPopup(popup_136452daabb28c349a755e18cb40f7fd)
+        ;
+
+        
+    
+    
+            var marker_ed6616f5f156857dd7382b323fc53af2 = L.marker(
+                [37.25, 106.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_ea609e592dd515729b73d3ed8a0936f4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8f4f889835b85ef223278482190d352b = $(`<div id="html_8f4f889835b85ef223278482190d352b" style="width: 100.0%; height: 100.0%;"><b>mention</b>: NSYR<br><b>selected_name</b>: Ningxia, China<br><b>application_context</b>: Arctic and Antarctic ice dynamics<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_ea609e592dd515729b73d3ed8a0936f4.setContent(html_8f4f889835b85ef223278482190d352b);
+            
+        
+
+        marker_ed6616f5f156857dd7382b323fc53af2.bindPopup(popup_ea609e592dd515729b73d3ed8a0936f4)
+        ;
+
+        
+    
+    
+            var marker_25fbba3cc5fb4539200b361fe271b3ad = L.marker(
+                [35.68536, 139.75309],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_43b9a7a76d6d20b77cc23f205772cc36 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_185a9732ba344bd64a6e6c20a514542c = $(`<div id="html_185a9732ba344bd64a6e6c20a514542c" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Japan<br><b>selected_name</b>: Japan<br><b>application_context</b>: Synthetic Aperture Radar (SAR) Applications and Techniques<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_43b9a7a76d6d20b77cc23f205772cc36.setContent(html_185a9732ba344bd64a6e6c20a514542c);
+            
+        
+
+        marker_25fbba3cc5fb4539200b361fe271b3ad.bindPopup(popup_43b9a7a76d6d20b77cc23f205772cc36)
+        ;
+
+        
+    
+    
+            var marker_a8f6a9d2bd1106608e7d687094697619 = L.marker(
+                [37.41277, 140.29507],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_3747e683821e42caee5de1e3c0eb44be = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c3abda409ed5f03e5896af58388ad594 = $(`<div id="html_c3abda409ed5f03e5896af58388ad594" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Koriyama City<br><b>selected_name</b>: Koriyama, Fukushima, Japan<br><b>application_context</b>: Synthetic Aperture Radar (SAR) Applications and Techniques<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_3747e683821e42caee5de1e3c0eb44be.setContent(html_c3abda409ed5f03e5896af58388ad594);
+            
+        
+
+        marker_a8f6a9d2bd1106608e7d687094697619.bindPopup(popup_3747e683821e42caee5de1e3c0eb44be)
+        ;
+
+        
+    
+    
+            var marker_ed0e0252dfcd36eef73b9cea2a7a29de = L.marker(
+                [37.38158, 140.22199],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_15f31ea61bbab0d106a4948e515690a9 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_776a0a79ec1d7c8ac59792c491089276 = $(`<div id="html_776a0a79ec1d7c8ac59792c491089276" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Fukushima Prefecture<br><b>selected_name</b>: Fukushima, Japan<br><b>application_context</b>: Synthetic Aperture Radar (SAR) Applications and Techniques<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_15f31ea61bbab0d106a4948e515690a9.setContent(html_776a0a79ec1d7c8ac59792c491089276);
+            
+        
+
+        marker_ed0e0252dfcd36eef73b9cea2a7a29de.bindPopup(popup_15f31ea61bbab0d106a4948e515690a9)
+        ;
+
+        
+    
+    
+            var marker_c8afd0d277ec46a34c8b8e1202c84295 = L.marker(
+                [35.68536, 139.75309],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_127ea0dbdf69d442eac782ee252f6d5f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6488106e1a86006141200e54af03100c = $(`<div id="html_6488106e1a86006141200e54af03100c" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Japan<br><b>selected_name</b>: Japan<br><b>application_context</b>: Synthetic Aperture Radar (SAR) Applications and Techniques<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_127ea0dbdf69d442eac782ee252f6d5f.setContent(html_6488106e1a86006141200e54af03100c);
+            
+        
+
+        marker_c8afd0d277ec46a34c8b8e1202c84295.bindPopup(popup_127ea0dbdf69d442eac782ee252f6d5f)
+        ;
+
+        
+    
+    
+            var marker_1b36ea1225243c84dd73a37868389082 = L.marker(
+                [39.0, 35.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_e28c6f2ab0e30ee4ce025fcc7ad917c1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_26dc3eda941abc4a71c1d575fd569b10 = $(`<div id="html_26dc3eda941abc4a71c1d575fd569b10" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Turkey<br><b>selected_name</b>: Turkey<br><b>application_context</b>: Remote-Sensing Image Classification<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_e28c6f2ab0e30ee4ce025fcc7ad917c1.setContent(html_26dc3eda941abc4a71c1d575fd569b10);
+            
+        
+
+        marker_1b36ea1225243c84dd73a37868389082.bindPopup(popup_e28c6f2ab0e30ee4ce025fcc7ad917c1)
+        ;
+
+        
+    
+    
+            var marker_7bab682584d17f2823bf34b336a985ca = L.marker(
+                [28.5, -10.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_4088780a5e93e341905f88a42b794d77 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a1b34775962175e4557aa449f9e51420 = $(`<div id="html_a1b34775962175e4557aa449f9e51420" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Morocco<br><b>selected_name</b>: Morocco<br><b>application_context</b>: Remote-Sensing Image Classification<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_4088780a5e93e341905f88a42b794d77.setContent(html_a1b34775962175e4557aa449f9e51420);
+            
+        
+
+        marker_7bab682584d17f2823bf34b336a985ca.bindPopup(popup_4088780a5e93e341905f88a42b794d77)
+        ;
+
+        
+    
+    
+            var marker_a0d6fff6458fef8c73a0c2e233495a03 = L.marker(
+                [28.0, 17.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_641d7fadb80755adb577bbd940a46c2d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3516afcb8a502d5632a6325459fd828f = $(`<div id="html_3516afcb8a502d5632a6325459fd828f" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Libya<br><b>selected_name</b>: Libya<br><b>application_context</b>: Remote-Sensing Image Classification<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_641d7fadb80755adb577bbd940a46c2d.setContent(html_3516afcb8a502d5632a6325459fd828f);
+            
+        
+
+        marker_a0d6fff6458fef8c73a0c2e233495a03.bindPopup(popup_641d7fadb80755adb577bbd940a46c2d)
+        ;
+
+        
+    
+    
+            var marker_ab37210571314f6378e443fdb771f546 = L.marker(
+                [42.05179, -102.33041],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_c11f884ce5566244de087b677b655468 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_791b96cfcc472515ad6e410812f3669c = $(`<div id="html_791b96cfcc472515ad6e410812f3669c" style="width: 100.0%; height: 100.0%;"><b>mention</b>: US<br><b>selected_name</b>: United States<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_c11f884ce5566244de087b677b655468.setContent(html_791b96cfcc472515ad6e410812f3669c);
+            
+        
+
+        marker_ab37210571314f6378e443fdb771f546.bindPopup(popup_c11f884ce5566244de087b677b655468)
+        ;
+
+        
+    
+    
+            var marker_7c46163746aac55649e14ec816e852c0 = L.marker(
+                [-3.72107, -38.51074],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_af665c8e8e1b0dcf98d28fbf421ddf4f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1cc6eaba17cf5575d5eb9aaa411c4884 = $(`<div id="html_1cc6eaba17cf5575d5eb9aaa411c4884" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Atlantic<br><b>selected_name</b>: Atlantic Ocean<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_af665c8e8e1b0dcf98d28fbf421ddf4f.setContent(html_1cc6eaba17cf5575d5eb9aaa411c4884);
+            
+        
+
+        marker_7c46163746aac55649e14ec816e852c0.bindPopup(popup_af665c8e8e1b0dcf98d28fbf421ddf4f)
+        ;
+
+        
+    
+    
+            var marker_e10188acdb5871197ed227156273c5ff = L.marker(
+                [-3.72107, -38.51074],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_1c5fb1b9c15fb46c8f6388f284a38db8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_21dc4ac8d2edb25ab556f4225530c25b = $(`<div id="html_21dc4ac8d2edb25ab556f4225530c25b" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Sea<br><b>selected_name</b>: Atlantic Ocean<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_1c5fb1b9c15fb46c8f6388f284a38db8.setContent(html_21dc4ac8d2edb25ab556f4225530c25b);
+            
+        
+
+        marker_e10188acdb5871197ed227156273c5ff.bindPopup(popup_1c5fb1b9c15fb46c8f6388f284a38db8)
+        ;
+
+        
+    
+    
+            var marker_651212ee8d20aa508a24f1d40f01bc67 = L.marker(
+                [40.47058, -113.01051],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_6d1b8720609654e02803b4985ad251b3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2bc125fc9b470efa32fa034e40b31056 = $(`<div id="html_2bc125fc9b470efa32fa034e40b31056" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Lake<br><b>selected_name</b>: Lake, United States<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_6d1b8720609654e02803b4985ad251b3.setContent(html_2bc125fc9b470efa32fa034e40b31056);
+            
+        
+
+        marker_651212ee8d20aa508a24f1d40f01bc67.bindPopup(popup_6d1b8720609654e02803b4985ad251b3)
+        ;
+
+        
+    
+    
+            var marker_19c7f8982019bb351d3fb53916515a39 = L.marker(
+                [24.5526, -81.8057],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_ebd5b991679641bfdc7d135c7ea99822 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6e07b823582fc8eeabccf027ed8380db = $(`<div id="html_6e07b823582fc8eeabccf027ed8380db" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Hurricanes<br><b>selected_name</b>: Hurricanes, United States<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_ebd5b991679641bfdc7d135c7ea99822.setContent(html_6e07b823582fc8eeabccf027ed8380db);
+            
+        
+
+        marker_19c7f8982019bb351d3fb53916515a39.bindPopup(popup_ebd5b991679641bfdc7d135c7ea99822)
+        ;
+
+        
+    
+    
+            var marker_cb8854971d3962af91222ed92b9b8e00 = L.marker(
+                [36.76323000000008, -76.25345499999997],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_41fe9eb7d8ddb646dccf52229e6246fd = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8966f963190e1dc774249edf45224fe0 = $(`<div id="html_8966f963190e1dc774249edf45224fe0" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Lower Chesapeake Bay<br><b>selected_name</b>: Lower Chesapeake Bay, Virginia, United States<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_41fe9eb7d8ddb646dccf52229e6246fd.setContent(html_8966f963190e1dc774249edf45224fe0);
+            
+        
+
+        marker_cb8854971d3962af91222ed92b9b8e00.bindPopup(popup_41fe9eb7d8ddb646dccf52229e6246fd)
+        ;
+
+        
+    
+    
+            var marker_24676c606e43fc2c6fc884c4b1bbfec2 = L.marker(
+                [42.05179, -102.33041],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_5122adb25ccdb106613bf3bec9efceb3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_45da4e211be2f936bf2c4ed193fa8d57 = $(`<div id="html_45da4e211be2f936bf2c4ed193fa8d57" style="width: 100.0%; height: 100.0%;"><b>mention</b>: US<br><b>selected_name</b>: United States<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_5122adb25ccdb106613bf3bec9efceb3.setContent(html_45da4e211be2f936bf2c4ed193fa8d57);
+            
+        
+
+        marker_24676c606e43fc2c6fc884c4b1bbfec2.bindPopup(popup_5122adb25ccdb106613bf3bec9efceb3)
+        ;
+
+        
+    
+    
+            var marker_1c0931755b010bcf4b6175d8562bc756 = L.marker(
+                [-3.72107, -38.51074],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_63aeb1998d3209f16940ce1fbbcc0d10 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3f680e5c3636c9377906de17727b84c7 = $(`<div id="html_3f680e5c3636c9377906de17727b84c7" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Atlantic<br><b>selected_name</b>: Atlantic Ocean<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_63aeb1998d3209f16940ce1fbbcc0d10.setContent(html_3f680e5c3636c9377906de17727b84c7);
+            
+        
+
+        marker_1c0931755b010bcf4b6175d8562bc756.bindPopup(popup_63aeb1998d3209f16940ce1fbbcc0d10)
+        ;
+
+        
+    
+    
+            var marker_3d90e515be8e297ca2493891d75567b5 = L.marker(
+                [41.179230000000075, -73.18944999999997],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_2f436fdf858d64d9338fd00bf2184288 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f9976de38a39250edc29fd0dd4acbc39 = $(`<div id="html_f9976de38a39250edc29fd0dd4acbc39" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Bridgeport<br><b>selected_name</b>: Bridgeport, Fairfield County, Connecticut, United States<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_2f436fdf858d64d9338fd00bf2184288.setContent(html_f9976de38a39250edc29fd0dd4acbc39);
+            
+        
+
+        marker_3d90e515be8e297ca2493891d75567b5.bindPopup(popup_2f436fdf858d64d9338fd00bf2184288)
+        ;
+
+        
+    
+    
+            var marker_4206345123736ae71fa7811a11e257a3 = L.marker(
+                [37.96186, -76.17834],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_e40f5cbd78aa8ec93b019d1aaf4f8a24 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4eb0209b0f2b2498a46c16655ff15b2d = $(`<div id="html_4eb0209b0f2b2498a46c16655ff15b2d" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Lower Chesapeake Bay<br><b>selected_name</b>: Chesapeake Bay, United States<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_e40f5cbd78aa8ec93b019d1aaf4f8a24.setContent(html_4eb0209b0f2b2498a46c16655ff15b2d);
+            
+        
+
+        marker_4206345123736ae71fa7811a11e257a3.bindPopup(popup_e40f5cbd78aa8ec93b019d1aaf4f8a24)
+        ;
+
+        
+    
+    
+            var marker_c27f40cfa3b52e90b24f6f003d23104d = L.marker(
+                [37.96186, -76.17834],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_2396e153f48a82116533dc1a570e5261 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5f35fbcae50f1ff35476b8fe3fcb0493 = $(`<div id="html_5f35fbcae50f1ff35476b8fe3fcb0493" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Lower Chesapeake Bay<br><b>selected_name</b>: Chesapeake Bay, United States<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_2396e153f48a82116533dc1a570e5261.setContent(html_5f35fbcae50f1ff35476b8fe3fcb0493);
+            
+        
+
+        marker_c27f40cfa3b52e90b24f6f003d23104d.bindPopup(popup_2396e153f48a82116533dc1a570e5261)
+        ;
+
+        
+    
+    
+            var marker_d1568d8646c8a771e3c595869e707752 = L.marker(
+                [42.36565, -71.10832],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_8acd88b0e7602b2e8bbf37ac9282dc6c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d0103b425ae5a664a47a199dc5b99fe6 = $(`<div id="html_d0103b425ae5a664a47a199dc5b99fe6" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Massachusetts<br><b>selected_name</b>: Massachusetts, United States<br><b>application_context</b>: Tropical and Extratropical Cyclones Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_8acd88b0e7602b2e8bbf37ac9282dc6c.setContent(html_d0103b425ae5a664a47a199dc5b99fe6);
+            
+        
+
+        marker_d1568d8646c8a771e3c595869e707752.bindPopup(popup_8acd88b0e7602b2e8bbf37ac9282dc6c)
+        ;
+
+        
+    
+    
+            var marker_d675b65b2b8097b7d2c4e292013040e3 = L.marker(
+                [44.57143, -84.69022],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_25a4162f931668aa56b64b8378815274 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_19fa6fb6e021288832f5c9a7eb8a7378 = $(`<div id="html_19fa6fb6e021288832f5c9a7eb8a7378" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Great Lakes<br><b>selected_name</b>: Great Lakes, United States<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_25a4162f931668aa56b64b8378815274.setContent(html_19fa6fb6e021288832f5c9a7eb8a7378);
+            
+        
+
+        marker_d675b65b2b8097b7d2c4e292013040e3.bindPopup(popup_25a4162f931668aa56b64b8378815274)
+        ;
+
+        
+    
+    
+            var marker_4caa263ffac659a8b0c62e6510bcb0dc = L.marker(
+                [30.37585, 74.11693],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_29bffcfe0475b5b7589380cefb6c76c8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a2fa6423b29c2e1cc2e5d3e607e86a4a = $(`<div id="html_a2fa6423b29c2e1cc2e5d3e607e86a4a" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Fazilka<br><b>selected_name</b>: Fazilka, Punjab, India<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_29bffcfe0475b5b7589380cefb6c76c8.setContent(html_a2fa6423b29c2e1cc2e5d3e607e86a4a);
+            
+        
+
+        marker_4caa263ffac659a8b0c62e6510bcb0dc.bindPopup(popup_29bffcfe0475b5b7589380cefb6c76c8)
+        ;
+
+        
+    
+    
+            var marker_2561f8683cb6698d2c7820dc86d15cb8 = L.marker(
+                [30.37585, 74.11693],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_ff6defe457f4093b366770771eacc0c4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6a94362e604e0374b519942b78b540db = $(`<div id="html_6a94362e604e0374b519942b78b540db" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Fazilka<br><b>selected_name</b>: Fazilka, Punjab, India<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_ff6defe457f4093b366770771eacc0c4.setContent(html_6a94362e604e0374b519942b78b540db);
+            
+        
+
+        marker_2561f8683cb6698d2c7820dc86d15cb8.bindPopup(popup_ff6defe457f4093b366770771eacc0c4)
+        ;
+
+        
+    
+    
+            var marker_68ae5c4da40ac72480b35d7019612d95 = L.marker(
+                [-28.33221, 29.02516],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_b26a9927cd742859924393fe00fa1938 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_e9db31f57563eb0edd47e9ab5db1ad35 = $(`<div id="html_e9db31f57563eb0edd47e9ab5db1ad35" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Maluti<br><b>selected_name</b>: Maluti, Thabo Mofutsanyana, South Africa<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_b26a9927cd742859924393fe00fa1938.setContent(html_e9db31f57563eb0edd47e9ab5db1ad35);
+            
+        
+
+        marker_68ae5c4da40ac72480b35d7019612d95.bindPopup(popup_b26a9927cd742859924393fe00fa1938)
+        ;
+
+        
+    
+    
+            var marker_a98bb9f3bba8b149dce633e2040f0da9 = L.marker(
+                [-28.5336663, 28.8081527],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_1848959fa9dc99d8e8a6c484de31131e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4be969883b2158fe4099676d239c9097 = $(`<div id="html_4be969883b2158fe4099676d239c9097" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Phofung Municipality<br><b>selected_name</b>: Phofung Municipality, Free State, South Africa<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_1848959fa9dc99d8e8a6c484de31131e.setContent(html_4be969883b2158fe4099676d239c9097);
+            
+        
+
+        marker_a98bb9f3bba8b149dce633e2040f0da9.bindPopup(popup_1848959fa9dc99d8e8a6c484de31131e)
+        ;
+
+        
+    
+    
+            var marker_9b8634bf21b154fa7c3df618693c7cef = L.marker(
+                [-29.046665, 29.414165],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_1a6c6ce87fae110acc3a872f79997d67 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c889b4e3bbbd233225b7e9fea8221d80 = $(`<div id="html_c889b4e3bbbd233225b7e9fea8221d80" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Drakensberg Mountains<br><b>selected_name</b>: Drakensberg Mountains, South Africa<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_1a6c6ce87fae110acc3a872f79997d67.setContent(html_c889b4e3bbbd233225b7e9fea8221d80);
+            
+        
+
+        marker_9b8634bf21b154fa7c3df618693c7cef.bindPopup(popup_1a6c6ce87fae110acc3a872f79997d67)
+        ;
+
+        
+    
+    
+            var marker_db460f80c5037b1bd11fc26c8c0d8a93 = L.marker(
+                [-28.5349247, 28.8325131],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_f02aaa5fc34773b7e831668c7b944db4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_265a53d2de9b0c4e8e88fee49b4b73d7 = $(`<div id="html_265a53d2de9b0c4e8e88fee49b4b73d7" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Qwaqwa<br><b>selected_name</b>: Qwaqwa, Free State, South Africa<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_f02aaa5fc34773b7e831668c7b944db4.setContent(html_265a53d2de9b0c4e8e88fee49b4b73d7);
+            
+        
+
+        marker_db460f80c5037b1bd11fc26c8c0d8a93.bindPopup(popup_f02aaa5fc34773b7e831668c7b944db4)
+        ;
+
+        
+    
+    
+            var marker_5ebbbd57c9f92d266cf34c25369a1b1b = L.marker(
+                [-29.046665, 29.414165],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_a90ee7cb7815543b219ed408daf8227c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_aacfdf605a97ff19d80fe2ef775c8232 = $(`<div id="html_aacfdf605a97ff19d80fe2ef775c8232" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Drakensberg Mountains<br><b>selected_name</b>: Drakensberg Mountains, South Africa<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_a90ee7cb7815543b219ed408daf8227c.setContent(html_aacfdf605a97ff19d80fe2ef775c8232);
+            
+        
+
+        marker_5ebbbd57c9f92d266cf34c25369a1b1b.bindPopup(popup_a90ee7cb7815543b219ed408daf8227c)
+        ;
+
+        
+    
+    
+            var marker_a79b0ff3040ca5e40639637709fa1898 = L.marker(
+                [-28.5349247, 28.8325131],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_feac86b708ffd46a7d0de576df104526 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d2a08dcd92ecb945566138bbe8cb3219 = $(`<div id="html_d2a08dcd92ecb945566138bbe8cb3219" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Qwaqwa<br><b>selected_name</b>: Qwaqwa, Free State, South Africa<br><b>application_context</b>: Flood Risk Assessment and Management<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_feac86b708ffd46a7d0de576df104526.setContent(html_d2a08dcd92ecb945566138bbe8cb3219);
+            
+        
+
+        marker_a79b0ff3040ca5e40639637709fa1898.bindPopup(popup_feac86b708ffd46a7d0de576df104526)
+        ;
+
+        
+    
+    
+            var marker_e9b73737287be1bf0fa05aa99b468a94 = L.marker(
+                [40.5, 47.5],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_8f783e58a686f3969ad0f7766e8adad1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_78f821c739b16abcf7d10f66ac862eb8 = $(`<div id="html_78f821c739b16abcf7d10f66ac862eb8" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Azerbaijan<br><b>selected_name</b>: Azerbaijan<br><b>application_context</b>: Groundwater and Isotope Geochemistry<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_8f783e58a686f3969ad0f7766e8adad1.setContent(html_78f821c739b16abcf7d10f66ac862eb8);
+            
+        
+
+        marker_e9b73737287be1bf0fa05aa99b468a94.bindPopup(popup_8f783e58a686f3969ad0f7766e8adad1)
+        ;
+
+        
+    
+    
+            var marker_e5cd8d6d7f482cd1b535f88a93b530fe = L.marker(
+                [32.0, 53.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_30a3729f01cd080c413fb267a910d4c3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f5496b1cb19c6d0c8e8f6521b04a6532 = $(`<div id="html_f5496b1cb19c6d0c8e8f6521b04a6532" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Iran<br><b>selected_name</b>: Iran<br><b>application_context</b>: Groundwater and Isotope Geochemistry<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_30a3729f01cd080c413fb267a910d4c3.setContent(html_f5496b1cb19c6d0c8e8f6521b04a6532);
+            
+        
+
+        marker_e5cd8d6d7f482cd1b535f88a93b530fe.bindPopup(popup_30a3729f01cd080c413fb267a910d4c3)
+        ;
+
+        
+    
+    
+            var marker_77e9a80315036983b746b54e71f3930b = L.marker(
+                [17.0, -96.5],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_bd48bc59c547abfbab36c593c15c9eb0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_2d6dddb0ad0585fda941e0287ef63c31 = $(`<div id="html_2d6dddb0ad0585fda941e0287ef63c31" style="width: 100.0%; height: 100.0%;"><b>mention</b>: OA<br><b>selected_name</b>: Oaxaca, Mexico<br><b>application_context</b>: Remote Sensing in Agriculture<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_bd48bc59c547abfbab36c593c15c9eb0.setContent(html_2d6dddb0ad0585fda941e0287ef63c31);
+            
+        
+
+        marker_77e9a80315036983b746b54e71f3930b.bindPopup(popup_bd48bc59c547abfbab36c593c15c9eb0)
+        ;
+
+        
+    
+    
+            var marker_b59c31ff80b81bada68b06d423ecd017 = L.marker(
+                [43.02557, -87.90286],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_7245172a7a59bc8ca9b9ed1ba7e058c8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_caa66fe32f289c622d9f5c921607c1c0 = $(`<div id="html_caa66fe32f289c622d9f5c921607c1c0" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Milwaukee River<br><b>selected_name</b>: Milwaukee River, Milwaukee County, Wisconsin, United States<br><b>application_context</b>: Microplastics and Plastic Pollution<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_7245172a7a59bc8ca9b9ed1ba7e058c8.setContent(html_caa66fe32f289c622d9f5c921607c1c0);
+            
+        
+
+        marker_b59c31ff80b81bada68b06d423ecd017.bindPopup(popup_7245172a7a59bc8ca9b9ed1ba7e058c8)
+        ;
+
+        
+    
+    
+            var marker_4314681e36d5aa37406ab68cc32d2e7f = L.marker(
+                [34.234014, -102.410756],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_68df344da243ed84c6a32f4c428fe299 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_db364193aefe064042ee2573c904919d = $(`<div id="html_db364193aefe064042ee2573c904919d" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Earth<br><b>selected_name</b>: Earth<br><b>application_context</b>: Soil Moisture and Remote Sensing<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_68df344da243ed84c6a32f4c428fe299.setContent(html_db364193aefe064042ee2573c904919d);
+            
+        
+
+        marker_4314681e36d5aa37406ab68cc32d2e7f.bindPopup(popup_68df344da243ed84c6a32f4c428fe299)
+        ;
+
+        
+    
+    
+            var marker_c87e23ab593f6098fe9c91ce9f38aea9 = L.marker(
+                [42.0, 50.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_fcb9c7b9ef1feb7afd6f5ea368077a3a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ce871e894e8ee0490f81f02e5adf8092 = $(`<div id="html_ce871e894e8ee0490f81f02e5adf8092" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Caspian Sea<br><b>selected_name</b>: Caspian Sea<br><b>application_context</b>: Marine and environmental studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_fcb9c7b9ef1feb7afd6f5ea368077a3a.setContent(html_ce871e894e8ee0490f81f02e5adf8092);
+            
+        
+
+        marker_c87e23ab593f6098fe9c91ce9f38aea9.bindPopup(popup_fcb9c7b9ef1feb7afd6f5ea368077a3a)
+        ;
+
+        
+    
+    
+            var marker_ff8b8b3ca2dc187321d26a10a51a9cc0 = L.marker(
+                [57.9551873, 38.3860577],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_5c0ccd5fc1b60ab8beb0d3d3101a2ae0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d0c8d98bdab1c7cf1e9ea1917e8d9708 = $(`<div id="html_d0c8d98bdab1c7cf1e9ea1917e8d9708" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Lower Volga<br><b>selected_name</b>: Lower Volga, Russia<br><b>application_context</b>: Marine and environmental studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_5c0ccd5fc1b60ab8beb0d3d3101a2ae0.setContent(html_d0c8d98bdab1c7cf1e9ea1917e8d9708);
+            
+        
+
+        marker_ff8b8b3ca2dc187321d26a10a51a9cc0.bindPopup(popup_5c0ccd5fc1b60ab8beb0d3d3101a2ae0)
+        ;
+
+        
+    
+    
+            var marker_cf94055634312e8c4db9bf72a5242dbd = L.marker(
+                [42.0, 50.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_a073b1a28888d672cb73662faca3cac4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_abb482b356f8dc8610f9efc21a95537a = $(`<div id="html_abb482b356f8dc8610f9efc21a95537a" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Caspian Sea<br><b>selected_name</b>: Caspian Sea<br><b>application_context</b>: Marine and environmental studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_a073b1a28888d672cb73662faca3cac4.setContent(html_abb482b356f8dc8610f9efc21a95537a);
+            
+        
+
+        marker_cf94055634312e8c4db9bf72a5242dbd.bindPopup(popup_a073b1a28888d672cb73662faca3cac4)
+        ;
+
+        
+    
+    
+            var marker_35991b134899510f2d0b26e6f82d448a = L.marker(
+                [57.22665000000006, 32.57648000000006],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_0d5bccd621682a7064668ae17c1a4df1 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b1dca144ee3bd047cfbdc6c652ec539c = $(`<div id="html_b1dca144ee3bd047cfbdc6c652ec539c" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Volga River<br><b>selected_name</b>: Volga River, Russia<br><b>application_context</b>: Marine and environmental studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_0d5bccd621682a7064668ae17c1a4df1.setContent(html_b1dca144ee3bd047cfbdc6c652ec539c);
+            
+        
+
+        marker_35991b134899510f2d0b26e6f82d448a.bindPopup(popup_0d5bccd621682a7064668ae17c1a4df1)
+        ;
+
+        
+    
+    
+            var marker_15ab9556b0f713ca56f420c8cd618ac5 = L.marker(
+                [57.9551873, 38.3860577],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_4e5f0d537cc441c5ff4cc5c48e98677e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7f664005a215b3ae4fe2c150646192c1 = $(`<div id="html_7f664005a215b3ae4fe2c150646192c1" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Lower Volga<br><b>selected_name</b>: Lower Volga, Russia<br><b>application_context</b>: Marine and environmental studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_4e5f0d537cc441c5ff4cc5c48e98677e.setContent(html_7f664005a215b3ae4fe2c150646192c1);
+            
+        
+
+        marker_15ab9556b0f713ca56f420c8cd618ac5.bindPopup(popup_4e5f0d537cc441c5ff4cc5c48e98677e)
+        ;
+
+        
+    
+    
+            var marker_0b1a7343563ae227555928e898a2b323 = L.marker(
+                [61.989526183000066, 96.80537153400007],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_297c8e84e04e72df743472a84a1c0527 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_eb689c0c9927b9f763b13df05e33a43c = $(`<div id="html_eb689c0c9927b9f763b13df05e33a43c" style="width: 100.0%; height: 100.0%;"><b>mention</b>: pIRIR290<br><b>selected_name</b>: pIRIR290, Russia<br><b>application_context</b>: Marine and environmental studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_297c8e84e04e72df743472a84a1c0527.setContent(html_eb689c0c9927b9f763b13df05e33a43c);
+            
+        
+
+        marker_0b1a7343563ae227555928e898a2b323.bindPopup(popup_297c8e84e04e72df743472a84a1c0527)
+        ;
+
+        
+    
+    
+            var marker_8ac2ead1307812acfbb3b43e66e884f5 = L.marker(
+                [57.22665000000006, 32.57648000000006],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_d0ee4e8928edb9be5615d20ae3b8551f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0544fec03769a3f4723569d0e291eab8 = $(`<div id="html_0544fec03769a3f4723569d0e291eab8" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Volga River<br><b>selected_name</b>: Volga River, Russia<br><b>application_context</b>: Marine and environmental studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_d0ee4e8928edb9be5615d20ae3b8551f.setContent(html_0544fec03769a3f4723569d0e291eab8);
+            
+        
+
+        marker_8ac2ead1307812acfbb3b43e66e884f5.bindPopup(popup_d0ee4e8928edb9be5615d20ae3b8551f)
+        ;
+
+        
+    
+    
+            var marker_c9fb27f567e885d4ebc9123b714d5e6d = L.marker(
+                [42.0, 50.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_0e3ed5ad0dadf824f7670d12fbf68e9e = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_eef526246677724710e8c31cc1c4df68 = $(`<div id="html_eef526246677724710e8c31cc1c4df68" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Caspian Sea<br><b>selected_name</b>: Caspian Sea<br><b>application_context</b>: Marine and environmental studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_0e3ed5ad0dadf824f7670d12fbf68e9e.setContent(html_eef526246677724710e8c31cc1c4df68);
+            
+        
+
+        marker_c9fb27f567e885d4ebc9123b714d5e6d.bindPopup(popup_0e3ed5ad0dadf824f7670d12fbf68e9e)
+        ;
+
+        
+    
+    
+            var marker_fdd2d7c6ce6f6794940a7878aa63a1ed = L.marker(
+                [55.00000000000006, 45.00000000000006],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_45fc85da77ef5297b17eab883b421d39 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_cfa6140f2192433d49c3b71e8443698b = $(`<div id="html_cfa6140f2192433d49c3b71e8443698b" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the East European Plain<br><b>selected_name</b>: East European Plain<br><b>application_context</b>: Marine and environmental studies<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_45fc85da77ef5297b17eab883b421d39.setContent(html_cfa6140f2192433d49c3b71e8443698b);
+            
+        
+
+        marker_fdd2d7c6ce6f6794940a7878aa63a1ed.bindPopup(popup_45fc85da77ef5297b17eab883b421d39)
+        ;
+
+        
+    
+    
+            var marker_33c849016b161a115bda8a18436cb2ac = L.marker(
+                [40.0, -4.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_3055a01ea47b44e189a8ef42136aa4f3 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_53629aed82a2a0770c9b1b950a08e58d = $(`<div id="html_53629aed82a2a0770c9b1b950a08e58d" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Spain<br><b>selected_name</b>: Spain<br><b>application_context</b>: Geology and Paleoclimatology Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_3055a01ea47b44e189a8ef42136aa4f3.setContent(html_53629aed82a2a0770c9b1b950a08e58d);
+            
+        
+
+        marker_33c849016b161a115bda8a18436cb2ac.bindPopup(popup_3055a01ea47b44e189a8ef42136aa4f3)
+        ;
+
+        
+    
+    
+            var marker_091d06f3d7a8bf94cb048e31d7a4c8ae = L.marker(
+                [39.6006212, -3.0446157],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_a20c9328dfb84bc6f52122871f2e7638 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_95cd3e1d811a14bf6d6a6345427689d4 = $(`<div id="html_95cd3e1d811a14bf6d6a6345427689d4" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Late Quaternary<br><b>selected_name</b>: Late Quaternary, Spain<br><b>application_context</b>: Geology and Paleoclimatology Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_a20c9328dfb84bc6f52122871f2e7638.setContent(html_95cd3e1d811a14bf6d6a6345427689d4);
+            
+        
+
+        marker_091d06f3d7a8bf94cb048e31d7a4c8ae.bindPopup(popup_a20c9328dfb84bc6f52122871f2e7638)
+        ;
+
+        
+    
+    
+            var marker_b6475810dd4104b685bada7b6897e3ec = L.marker(
+                [40.227949660000036, -3.6460631049999392],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_9c892c435a90d2e62bf793911cd47c25 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_1056d4f06d92571e722ecbc41c48866d = $(`<div id="html_1056d4f06d92571e722ecbc41c48866d" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Late Pleistocene<br><b>selected_name</b>: Late Pleistocene, Spain<br><b>application_context</b>: Geology and Paleoclimatology Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_9c892c435a90d2e62bf793911cd47c25.setContent(html_1056d4f06d92571e722ecbc41c48866d);
+            
+        
+
+        marker_b6475810dd4104b685bada7b6897e3ec.bindPopup(popup_9c892c435a90d2e62bf793911cd47c25)
+        ;
+
+        
+    
+    
+            var marker_0cdba7b6b8a0961f661309f58e80f92f = L.marker(
+                [6.227019375257484, 6.935599112925919],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_13a0cf38d6b3b53e938de725e2b22959 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_403d8d01325972b206c7056e460d906b = $(`<div id="html_403d8d01325972b206c7056e460d906b" style="width: 100.0%; height: 100.0%;"><b>mention</b>: The Anambra Basin<br><b>selected_name</b>: Anambra Basin, Nigeria<br><b>application_context</b>: Paleontology and Stratigraphy of Fossils<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_13a0cf38d6b3b53e938de725e2b22959.setContent(html_403d8d01325972b206c7056e460d906b);
+            
+        
+
+        marker_0cdba7b6b8a0961f661309f58e80f92f.bindPopup(popup_13a0cf38d6b3b53e938de725e2b22959)
+        ;
+
+        
+    
+    
+            var marker_4468b1dac27021eee1a75dc5a6dcfccd = L.marker(
+                [10.0, 8.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_f2c8fff0cde38effa7b92df5f295e823 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6b80b8bf15d6c2cc17f09b9668b0c243 = $(`<div id="html_6b80b8bf15d6c2cc17f09b9668b0c243" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Nigeria<br><b>selected_name</b>: Nigeria<br><b>application_context</b>: Paleontology and Stratigraphy of Fossils<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_f2c8fff0cde38effa7b92df5f295e823.setContent(html_6b80b8bf15d6c2cc17f09b9668b0c243);
+            
+        
+
+        marker_4468b1dac27021eee1a75dc5a6dcfccd.bindPopup(popup_f2c8fff0cde38effa7b92df5f295e823)
+        ;
+
+        
+    
+    
+            var marker_0109da75c5d3d74af569af0d10222242 = L.marker(
+                [13.44326, 4.50116],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_ad155aa4003e898ba7c2e53f52b9fe2f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_748ca6000e94aed385492919d0ef80b9 = $(`<div id="html_748ca6000e94aed385492919d0ef80b9" style="width: 100.0%; height: 100.0%;"><b>mention</b>: West<br><b>selected_name</b>: West, Nigeria<br><b>application_context</b>: Paleontology and Stratigraphy of Fossils<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_ad155aa4003e898ba7c2e53f52b9fe2f.setContent(html_748ca6000e94aed385492919d0ef80b9);
+            
+        
+
+        marker_0109da75c5d3d74af569af0d10222242.bindPopup(popup_ad155aa4003e898ba7c2e53f52b9fe2f)
+        ;
+
+        
+    
+    
+            var marker_862485021de21c0b0a2e74c954438932 = L.marker(
+                [1.5509, 25.63297],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_f429f401f0abebec6ddc223db7779fac = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_47ad1f5c498a34599731e9ea4000a711 = $(`<div id="html_47ad1f5c498a34599731e9ea4000a711" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Africa<br><b>selected_name</b>: Africa<br><b>application_context</b>: Paleontology and Stratigraphy of Fossils<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_f429f401f0abebec6ddc223db7779fac.setContent(html_47ad1f5c498a34599731e9ea4000a711);
+            
+        
+
+        marker_862485021de21c0b0a2e74c954438932.bindPopup(popup_f429f401f0abebec6ddc223db7779fac)
+        ;
+
+        
+    
+    
+            var marker_91aab69db028ae6975156f1dd807b868 = L.marker(
+                [6.227019375257484, 6.935599112925919],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_ea91a7da3acc159f0f98267424bd4dcf = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7964b1dacc25c35d48b51ee309138113 = $(`<div id="html_7964b1dacc25c35d48b51ee309138113" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Anambra Basin<br><b>selected_name</b>: Anambra Basin, Nigeria<br><b>application_context</b>: Paleontology and Stratigraphy of Fossils<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_ea91a7da3acc159f0f98267424bd4dcf.setContent(html_7964b1dacc25c35d48b51ee309138113);
+            
+        
+
+        marker_91aab69db028ae6975156f1dd807b868.bindPopup(popup_ea91a7da3acc159f0f98267424bd4dcf)
+        ;
+
+        
+    
+    
+            var marker_e53ca6f59c09adf2aab0fbb5a820f1d9 = L.marker(
+                [4.7748998, 7.021032],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_7f73b83fe15ae422c4020befbb9a36e2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_5f7609626e1e7aeda8729d97816b0cf6 = $(`<div id="html_5f7609626e1e7aeda8729d97816b0cf6" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Niger Delta Basin<br><b>selected_name</b>: Niger Delta Basin, Nigeria<br><b>application_context</b>: Paleontology and Stratigraphy of Fossils<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_7f73b83fe15ae422c4020befbb9a36e2.setContent(html_5f7609626e1e7aeda8729d97816b0cf6);
+            
+        
+
+        marker_e53ca6f59c09adf2aab0fbb5a820f1d9.bindPopup(popup_7f73b83fe15ae422c4020befbb9a36e2)
+        ;
+
+        
+    
+    
+            var marker_882945bf669f4b80697c3312b7989c66 = L.marker(
+                [6.227019375257484, 6.935599112925919],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_b9e824c0a08898e8b32e8cc6a3fe1ca0 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8ed1da5e4d8978cfb32ab2cd8d0acce1 = $(`<div id="html_8ed1da5e4d8978cfb32ab2cd8d0acce1" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Upper Cretaceous<br><b>selected_name</b>: Upper Cretaceous, Anambra Basin, Nigeria<br><b>application_context</b>: Paleontology and Stratigraphy of Fossils<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_b9e824c0a08898e8b32e8cc6a3fe1ca0.setContent(html_8ed1da5e4d8978cfb32ab2cd8d0acce1);
+            
+        
+
+        marker_882945bf669f4b80697c3312b7989c66.bindPopup(popup_b9e824c0a08898e8b32e8cc6a3fe1ca0)
+        ;
+
+        
+    
+    
+            var marker_2eadb0da37873f6cd9687262a5d38ddc = L.marker(
+                [6.227019375257484, 6.935599112925919],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_680dac3f2a40a1f0794d39a5fb2f0b0b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4c108c2961ff6a39b81c7e9d52aeb126 = $(`<div id="html_4c108c2961ff6a39b81c7e9d52aeb126" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Anambra Basin<br><b>selected_name</b>: Anambra Basin, Nigeria<br><b>application_context</b>: Paleontology and Stratigraphy of Fossils<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_680dac3f2a40a1f0794d39a5fb2f0b0b.setContent(html_4c108c2961ff6a39b81c7e9d52aeb126);
+            
+        
+
+        marker_2eadb0da37873f6cd9687262a5d38ddc.bindPopup(popup_680dac3f2a40a1f0794d39a5fb2f0b0b)
+        ;
+
+        
+    
+    
+            var marker_cac3443d10e05eb2428a2a733e63ad4f = L.marker(
+                [34.234014, -102.410756],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_03f57cbd0dc529fbaf3510445c2db9fb = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_3bbcedf0fc833cb5f2fc3a4f34679a82 = $(`<div id="html_3bbcedf0fc833cb5f2fc3a4f34679a82" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Earth<br><b>selected_name</b>: Earth<br><b>application_context</b>: Geological formations and processes<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_03f57cbd0dc529fbaf3510445c2db9fb.setContent(html_3bbcedf0fc833cb5f2fc3a4f34679a82);
+            
+        
+
+        marker_cac3443d10e05eb2428a2a733e63ad4f.bindPopup(popup_03f57cbd0dc529fbaf3510445c2db9fb)
+        ;
+
+        
+    
+    
+            var marker_6188e112213db15867acff00be54dced = L.marker(
+                [38.44932, -121.34424],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_f1519b050eb83ff32815a4b3636e2f1b = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_70d034af153f68e468324b30edd5060b = $(`<div id="html_70d034af153f68e468324b30edd5060b" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Sacramento<br><b>selected_name</b>: Sacramento, Sacramento County, California, United States<br><b>application_context</b>: Reservoir Engineering and Simulation Methods<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_f1519b050eb83ff32815a4b3636e2f1b.setContent(html_70d034af153f68e468324b30edd5060b);
+            
+        
+
+        marker_6188e112213db15867acff00be54dced.bindPopup(popup_f1519b050eb83ff32815a4b3636e2f1b)
+        ;
+
+        
+    
+    
+            var marker_ea98a3b6dae40f71fe71f07f79dc6db7 = L.marker(
+                [37.93478, -121.27145],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_46651aa9927b3550dcf6e9f2ec55af66 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_fd4a65295e72b4407b5cb4b8508a1d9d = $(`<div id="html_fd4a65295e72b4407b5cb4b8508a1d9d" style="width: 100.0%; height: 100.0%;"><b>mention</b>: San Joaquin<br><b>selected_name</b>: San Joaquin, San Joaquin County, California, United States<br><b>application_context</b>: Reservoir Engineering and Simulation Methods<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_46651aa9927b3550dcf6e9f2ec55af66.setContent(html_fd4a65295e72b4407b5cb4b8508a1d9d);
+            
+        
+
+        marker_ea98a3b6dae40f71fe71f07f79dc6db7.bindPopup(popup_46651aa9927b3550dcf6e9f2ec55af66)
+        ;
+
+        
+    
+    
+            var marker_9e225934c21a61730a9b8761d4d71a66 = L.marker(
+                [37.25022, -119.75126],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_5440cdbfecfbb81fc5bb6337a95c0d9d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_f717f32a5a0bbe58adbad59248a577bb = $(`<div id="html_f717f32a5a0bbe58adbad59248a577bb" style="width: 100.0%; height: 100.0%;"><b>mention</b>: California<br><b>selected_name</b>: California, United States<br><b>application_context</b>: Reservoir Engineering and Simulation Methods<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_5440cdbfecfbb81fc5bb6337a95c0d9d.setContent(html_f717f32a5a0bbe58adbad59248a577bb);
+            
+        
+
+        marker_9e225934c21a61730a9b8761d4d71a66.bindPopup(popup_5440cdbfecfbb81fc5bb6337a95c0d9d)
+        ;
+
+        
+    
+    
+            var marker_e4797ea38c95b7d1f4da3e099328e79f = L.marker(
+                [-6.5889, 108.5029],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_30907fa24136c4ab9ae6935c9859a0c2 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_8a9142caa2f0180c4dbf748a63fa59b0 = $(`<div id="html_8a9142caa2f0180c4dbf748a63fa59b0" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Northern Hemisphere<br><b>selected_name</b>: Northern Hemisphere<br><b>application_context</b>: Peatlands and Wetlands Ecology<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_30907fa24136c4ab9ae6935c9859a0c2.setContent(html_8a9142caa2f0180c4dbf748a63fa59b0);
+            
+        
+
+        marker_e4797ea38c95b7d1f4da3e099328e79f.bindPopup(popup_30907fa24136c4ab9ae6935c9859a0c2)
+        ;
+
+        
+    
+    
+            var marker_55289c9ac181b91d91a4a1fe2d043cd0 = L.marker(
+                [43.71747, 5.74937],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_91b6f5b458856c9b2e95ca80ad6792e4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_a74c6b062c2f42343afab93c3fced506 = $(`<div id="html_a74c6b062c2f42343afab93c3fced506" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Cadarache Area<br><b>selected_name</b>: Cadarache, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France<br><b>application_context</b>: Geology and Paleoclimatology Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_91b6f5b458856c9b2e95ca80ad6792e4.setContent(html_a74c6b062c2f42343afab93c3fced506);
+            
+        
+
+        marker_55289c9ac181b91d91a4a1fe2d043cd0.bindPopup(popup_91b6f5b458856c9b2e95ca80ad6792e4)
+        ;
+
+        
+    
+    
+            var marker_62add535c14fe2e1ae1a1fe8dd57210e = L.marker(
+                [-20.28417, 57.77694],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_64b0afa75eb4d7da214069e01bf16bb8 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_74ccc92e5ebddd965aa2c14826b63e91 = $(`<div id="html_74ccc92e5ebddd965aa2c14826b63e91" style="width: 100.0%; height: 100.0%;"><b>mention</b>: South East<br><b>selected_name</b>: South East, France<br><b>application_context</b>: Geology and Paleoclimatology Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_64b0afa75eb4d7da214069e01bf16bb8.setContent(html_74ccc92e5ebddd965aa2c14826b63e91);
+            
+        
+
+        marker_62add535c14fe2e1ae1a1fe8dd57210e.bindPopup(popup_64b0afa75eb4d7da214069e01bf16bb8)
+        ;
+
+        
+    
+    
+            var marker_47d106704d62dfef8b7a7d12c8090d2d = L.marker(
+                [46.0, 2.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_85be910d12a1d2fc4068d2a9f769bc4f = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_6ffd8648f612dc87507b17e1f3cffb5b = $(`<div id="html_6ffd8648f612dc87507b17e1f3cffb5b" style="width: 100.0%; height: 100.0%;"><b>mention</b>: France<br><b>selected_name</b>: France<br><b>application_context</b>: Geology and Paleoclimatology Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_85be910d12a1d2fc4068d2a9f769bc4f.setContent(html_6ffd8648f612dc87507b17e1f3cffb5b);
+            
+        
+
+        marker_47d106704d62dfef8b7a7d12c8090d2d.bindPopup(popup_85be910d12a1d2fc4068d2a9f769bc4f)
+        ;
+
+        
+    
+    
+            var marker_31b6593a2bca51cb7ec87fbdae3f0f4f = L.marker(
+                [44.00000000000006, 6.000000000000057],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_006e06844a655b639451de91f6050526 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_ad8386cc95388cf1c7652849d6a093b2 = $(`<div id="html_ad8386cc95388cf1c7652849d6a093b2" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Upper Provence<br><b>selected_name</b>: Upper Provence, France<br><b>application_context</b>: Geology and Paleoclimatology Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_006e06844a655b639451de91f6050526.setContent(html_ad8386cc95388cf1c7652849d6a093b2);
+            
+        
+
+        marker_31b6593a2bca51cb7ec87fbdae3f0f4f.bindPopup(popup_006e06844a655b639451de91f6050526)
+        ;
+
+        
+    
+    
+            var marker_0ad2ed78596f7fe949041e411599eaae = L.marker(
+                [44.37776, 4.64443],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_28b1d58666ae2194a64737357f12f280 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_199f09ef33c33884d502a09c7490407c = $(`<div id="html_199f09ef33c33884d502a09c7490407c" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Rhône Valley<br><b>selected_name</b>: Rhône Valley, France<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_28b1d58666ae2194a64737357f12f280.setContent(html_199f09ef33c33884d502a09c7490407c);
+            
+        
+
+        marker_0ad2ed78596f7fe949041e411599eaae.bindPopup(popup_28b1d58666ae2194a64737357f12f280)
+        ;
+
+        
+    
+    
+            var marker_9d71939b18a571aacee0dd5c93554575 = L.marker(
+                [44.37776, 4.64443],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_6dcfa7c8374a891c2f356829a03bc06c = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b125369e733e3869414a643dfdf15970 = $(`<div id="html_b125369e733e3869414a643dfdf15970" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Rhône Valley<br><b>selected_name</b>: Rhône Valley, France<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_6dcfa7c8374a891c2f356829a03bc06c.setContent(html_b125369e733e3869414a643dfdf15970);
+            
+        
+
+        marker_9d71939b18a571aacee0dd5c93554575.bindPopup(popup_6dcfa7c8374a891c2f356829a03bc06c)
+        ;
+
+        
+    
+    
+            var marker_09bfddeaa2eaaa20e6a0809bc44ab341 = L.marker(
+                [35.23763, 23.65656],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_e91ef8b1d08ef8c03503cd51755e3414 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_7102e73153e72b4644f97af1ce741469 = $(`<div id="html_7102e73153e72b4644f97af1ce741469" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Mediterranean<br><b>selected_name</b>: Mediterranean Sea<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_e91ef8b1d08ef8c03503cd51755e3414.setContent(html_7102e73153e72b4644f97af1ce741469);
+            
+        
+
+        marker_09bfddeaa2eaaa20e6a0809bc44ab341.bindPopup(popup_e91ef8b1d08ef8c03503cd51755e3414)
+        ;
+
+        
+    
+    
+            var marker_3bb92c75a610b690722ce10e6f288813 = L.marker(
+                [36.3169826, -6.1535139],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_69072bdb975898da2b812ae085c8a317 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_c74a9749df4322fb3df895a105044d2a = $(`<div id="html_c74a9749df4322fb3df895a105044d2a" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Strait of Gibraltar<br><b>selected_name</b>: Strait of Gibraltar, Spain<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_69072bdb975898da2b812ae085c8a317.setContent(html_c74a9749df4322fb3df895a105044d2a);
+            
+        
+
+        marker_3bb92c75a610b690722ce10e6f288813.bindPopup(popup_69072bdb975898da2b812ae085c8a317)
+        ;
+
+        
+    
+    
+            var marker_fccf60c4f09e09a5e7927defca679c8a = L.marker(
+                [35.78, 19.33],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_8d069e3df1eda4a33092f9bbf5396595 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_0bba3b24f4b160424ee05256cdecd25a = $(`<div id="html_0bba3b24f4b160424ee05256cdecd25a" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Mediterranean Basin<br><b>selected_name</b>: Mediterranean Basin<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_8d069e3df1eda4a33092f9bbf5396595.setContent(html_0bba3b24f4b160424ee05256cdecd25a);
+            
+        
+
+        marker_fccf60c4f09e09a5e7927defca679c8a.bindPopup(popup_8d069e3df1eda4a33092f9bbf5396595)
+        ;
+
+        
+    
+    
+            var marker_f09591047579fa53d1f2ad7cf41673f9 = L.marker(
+                [-3.72107, -38.51074],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_3982902cd161003380265711acd5a133 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_017446784d18a75c6ad0b063b4446646 = $(`<div id="html_017446784d18a75c6ad0b063b4446646" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Atlantic<br><b>selected_name</b>: Atlantic Ocean<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_3982902cd161003380265711acd5a133.setContent(html_017446784d18a75c6ad0b063b4446646);
+            
+        
+
+        marker_f09591047579fa53d1f2ad7cf41673f9.bindPopup(popup_3982902cd161003380265711acd5a133)
+        ;
+
+        
+    
+    
+            var marker_a00ac04f714c1815b8f95c85b4f5c5dc = L.marker(
+                [44.37776, 4.64443],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_12c2e9274edec9dbb390f1347fa40eec = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_aea52067f921a494d45ebb6ecc1f6c8e = $(`<div id="html_aea52067f921a494d45ebb6ecc1f6c8e" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Rhône Valley<br><b>selected_name</b>: Rhône Valley, France<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_12c2e9274edec9dbb390f1347fa40eec.setContent(html_aea52067f921a494d45ebb6ecc1f6c8e);
+            
+        
+
+        marker_a00ac04f714c1815b8f95c85b4f5c5dc.bindPopup(popup_12c2e9274edec9dbb390f1347fa40eec)
+        ;
+
+        
+    
+    
+            var marker_9eb356b738f55d455806a34634dc9cf2 = L.marker(
+                [44.37776, 4.64443],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_067bd2b8de835d84e089dcb9e1d7d9b4 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d791e41730dc1fe556eaceca110c44e5 = $(`<div id="html_d791e41730dc1fe556eaceca110c44e5" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Rhône Valley<br><b>selected_name</b>: Rhône Valley, France<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_067bd2b8de835d84e089dcb9e1d7d9b4.setContent(html_d791e41730dc1fe556eaceca110c44e5);
+            
+        
+
+        marker_9eb356b738f55d455806a34634dc9cf2.bindPopup(popup_067bd2b8de835d84e089dcb9e1d7d9b4)
+        ;
+
+        
+    
+    
+            var marker_194d9d3a5701fa8dbb961e9533fce742 = L.marker(
+                [46.18275, 5.06031],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_0787d27cd6acc87274df5a8df09c6e10 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_36aa332670508640f530a4ccfae82b5d = $(`<div id="html_36aa332670508640f530a4ccfae82b5d" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Bresse Basin<br><b>selected_name</b>: Bresse, France<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_0787d27cd6acc87274df5a8df09c6e10.setContent(html_36aa332670508640f530a4ccfae82b5d);
+            
+        
+
+        marker_194d9d3a5701fa8dbb961e9533fce742.bindPopup(popup_0787d27cd6acc87274df5a8df09c6e10)
+        ;
+
+        
+    
+    
+            var marker_881e7de0fc1245f89620e69be4cc518e = L.marker(
+                [44.37776, 4.64443],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_59c43c327d21bc2a6b9956bb8c272659 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_83ec0515cf7854c90faca51492a93449 = $(`<div id="html_83ec0515cf7854c90faca51492a93449" style="width: 100.0%; height: 100.0%;"><b>mention</b>: −<br><b>selected_name</b>: Rhône Valley, France<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_59c43c327d21bc2a6b9956bb8c272659.setContent(html_83ec0515cf7854c90faca51492a93449);
+            
+        
+
+        marker_881e7de0fc1245f89620e69be4cc518e.bindPopup(popup_59c43c327d21bc2a6b9956bb8c272659)
+        ;
+
+        
+    
+    
+            var marker_c1ea05ce8bff6b8acfd72bfe9c997d30 = L.marker(
+                [44.75, 7.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_80f9017da7841af2fd6c9fb35ce80f76 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_225aca2cde0a043748ef86f83071051e = $(`<div id="html_225aca2cde0a043748ef86f83071051e" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Alps<br><b>selected_name</b>: Alps, France<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_80f9017da7841af2fd6c9fb35ce80f76.setContent(html_225aca2cde0a043748ef86f83071051e);
+            
+        
+
+        marker_c1ea05ce8bff6b8acfd72bfe9c997d30.bindPopup(popup_80f9017da7841af2fd6c9fb35ce80f76)
+        ;
+
+        
+    
+    
+            var marker_0655e3f0a43c40d932939e85a989d2f3 = L.marker(
+                [46.73431, 5.72349],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_466ea1091370c2fb28c21d0742b2aa7d = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_4d37f5dcbe03d34cf5c7864c09f8c9d5 = $(`<div id="html_4d37f5dcbe03d34cf5c7864c09f8c9d5" style="width: 100.0%; height: 100.0%;"><b>mention</b>: South Jura<br><b>selected_name</b>: Jura, France<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_466ea1091370c2fb28c21d0742b2aa7d.setContent(html_4d37f5dcbe03d34cf5c7864c09f8c9d5);
+            
+        
+
+        marker_0655e3f0a43c40d932939e85a989d2f3.bindPopup(popup_466ea1091370c2fb28c21d0742b2aa7d)
+        ;
+
+        
+    
+    
+            var marker_97a99a6c972c1189bd4fe20879fa95fb = L.marker(
+                [47.6850434, 6.4987807],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_01de0a2de40bada50c52bc65d256b118 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b1866a099c1b1d3def369214f0aae0b5 = $(`<div id="html_b1866a099c1b1d3def369214f0aae0b5" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Neogene<br><b>selected_name</b>: Neogene, France<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_01de0a2de40bada50c52bc65d256b118.setContent(html_b1866a099c1b1d3def369214f0aae0b5);
+            
+        
+
+        marker_97a99a6c972c1189bd4fe20879fa95fb.bindPopup(popup_01de0a2de40bada50c52bc65d256b118)
+        ;
+
+        
+    
+    
+            var marker_6798bf7de3e8dbd971f5aa9d83c799c4 = L.marker(
+                [47.6850434, 6.4987807],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_02f89f5a23db90182093057e4fecab72 = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_246ef32ef45e12375f1ddab89a0bf4d5 = $(`<div id="html_246ef32ef45e12375f1ddab89a0bf4d5" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Late Neogene<br><b>selected_name</b>: Late Neogene, France<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_02f89f5a23db90182093057e4fecab72.setContent(html_246ef32ef45e12375f1ddab89a0bf4d5);
+            
+        
+
+        marker_6798bf7de3e8dbd971f5aa9d83c799c4.bindPopup(popup_02f89f5a23db90182093057e4fecab72)
+        ;
+
+        
+    
+    
+            var marker_e4488faed0fbb80d1a6320af5ff8b787 = L.marker(
+                [44.75, 7.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_574c15e74004bca4ec29fc249dc09c1a = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_48319dcf19fc399bee82870ee38da480 = $(`<div id="html_48319dcf19fc399bee82870ee38da480" style="width: 100.0%; height: 100.0%;"><b>mention</b>: Alps<br><b>selected_name</b>: Alps, France<br><b>application_context</b>: Geological and Geophysical Studies Worldwide<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_574c15e74004bca4ec29fc249dc09c1a.setContent(html_48319dcf19fc399bee82870ee38da480);
+            
+        
+
+        marker_e4488faed0fbb80d1a6320af5ff8b787.bindPopup(popup_574c15e74004bca4ec29fc249dc09c1a)
+        ;
+
+        
+    
+    
+            var marker_fe7d3c5e0e7727874f0b122b594d2f56 = L.marker(
+                [46.0, 2.0],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_eb8c2306667676a7e534295da183e2ea = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_d865aed6873e318c266ba733fe745b77 = $(`<div id="html_d865aed6873e318c266ba733fe745b77" style="width: 100.0%; height: 100.0%;"><b>mention</b>: France<br><b>selected_name</b>: France<br><b>application_context</b>: Geology and Paleoclimatology Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_eb8c2306667676a7e534295da183e2ea.setContent(html_d865aed6873e318c266ba733fe745b77);
+            
+        
+
+        marker_fe7d3c5e0e7727874f0b122b594d2f56.bindPopup(popup_eb8c2306667676a7e534295da183e2ea)
+        ;
+
+        
+    
+    
+            var marker_354b66cba33f79bd3222868ebb3c18d4 = L.marker(
+                [46.55941704400004, 2.5505399530000545],
+                {
+}
+            ).addTo(map_5faea99098e8f18e30450d1d7033005c);
+        
+    
+        var popup_e0de6e2423e273eb7ed7ecacedfb4dac = L.popup({
+  "maxWidth": 350,
+});
+
+        
+            
+                var html_b03b74c88a9af861f26768af21ab2e50 = $(`<div id="html_b03b74c88a9af861f26768af21ab2e50" style="width: 100.0%; height: 100.0%;"><b>mention</b>: the Eocene-Oligocene Transition (EOT<br><b>selected_name</b>: Eocene-Oligocene Transition (EOT), France<br><b>application_context</b>: Geology and Paleoclimatology Research<br><b>method</b>: llm_rag_geonames</div>`)[0];
+                popup_e0de6e2423e273eb7ed7ecacedfb4dac.setContent(html_b03b74c88a9af861f26768af21ab2e50);
+            
+        
+
+        marker_354b66cba33f79bd3222868ebb3c18d4.bindPopup(popup_e0de6e2423e273eb7ed7ecacedfb4dac)
+        ;
+
+        
+    
+</script>
+</html>

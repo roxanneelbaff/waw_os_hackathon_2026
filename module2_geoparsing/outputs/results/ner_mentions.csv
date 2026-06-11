@@ -1,0 +1,10 @@
+mention,start,end,label,tool,source_text_id,sentence
+Paris,0,5,GPE,spacy,sample_1,Paris and Berlin are often mentioned in European news.
+Berlin,10,16,GPE,spacy,sample_1,Paris and Berlin are often mentioned in European news.
+California,29,39,GPE,spacy,sample_2,Apple opened a new office in California.
+Bayern,38,44,GPE,spacy,sample_3,"Nach dem Hochwasser wurden Schäden in Bayern, Passau und Österreich gemeldet."
+Izmir,24,29,GPE,stanza,stanza_demo,The earthquake affected Izmir and nearby villages.
+Paris,0,5,LOC,flair,flair_demo,Paris and Berlin are often mentioned in European news.
+Berlin,10,16,LOC,flair,flair_demo,Paris and Berlin are often mentioned in European news.
+Valencia,24,33,LOC,transformers,transformers_demo,Flooding was reported in Valencia and Barcelona.
+Barcelona,37,47,LOC,transformers,transformers_demo,Flooding was reported in Valencia and Barcelona.
