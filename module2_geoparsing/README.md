@@ -32,9 +32,7 @@ pip install --upgrade pip
 pip install -r requirements-core.txt
 ```
 
-Do not install NER packages during this setup step. Notebook 01 introduces spaCy, Stanza, Flair, and Transformers separately, and each section has its own install cell directly before the example. This keeps the participant path clear and avoids installing large packages that are not used.
 
-Copy `.env.example` to `.env` only if you need to override service URLs.
 
 ## Start Jupyter
 
@@ -65,7 +63,4 @@ LLM_RAG_BASE_URL
 REQUEST_TIMEOUT
 ```
 
-## Troubleshooting
 
-- If an internal service is unreachable, check DLR network or VPN access.
-- If core packages are missing, run the controlled install cell in Notebook 00.

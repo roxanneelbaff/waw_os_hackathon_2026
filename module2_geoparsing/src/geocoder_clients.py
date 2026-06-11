@@ -23,27 +23,27 @@ def _standard_row(query: str, source: str, raw: dict[str, Any]) -> dict[str, Any
     return {
         "query": query,
         "source": source,
-        "name": raw.get("name") or raw.get("toponymName") or raw.get("display_name") or raw.get("address"),
-        "country": raw.get("country") or raw.get("countryName") or raw.get("country_code"),
-        "state": raw.get("state") or raw.get("adminName1"),
-        "county": raw.get("county") or raw.get("adminName2"),
-        "lat": raw.get("lat") or raw.get("latitude"),
-        "lon": raw.get("lon") or raw.get("lng") or raw.get("longitude"),
-        "feature_class": raw.get("feature_class") or raw.get("fclass") or raw.get("class"),
-        "feature_code": raw.get("feature_code") or raw.get("fcode") or raw.get("type"),
-        "population": raw.get("population"),
+        "name": raw.get("name") or raw.get("Name") or raw.get("toponymName") or raw.get("display_name") or raw.get("address"),
+        "country": raw.get("country") or raw.get("Country") or raw.get("countryName") or raw.get("country_code") or raw.get("countrycode"),
+        "state": raw.get("state") or raw.get("State") or raw.get("adminName1"),
+        "county": raw.get("county") or raw.get("County") or raw.get("adminName2"),
+        "lat": raw.get("lat") or raw.get("latitude") or raw.get("Latitude"),
+        "lon": raw.get("lon") or raw.get("lng") or raw.get("longitude") or raw.get("Longitude"),
+        "feature_class": raw.get("feature_class") or raw.get("fclass") or raw.get("class") or raw.get("Class"),
+        "feature_code": raw.get("feature_code") or raw.get("fcode") or raw.get("type") or raw.get("Code"),
+        "population": raw.get("population") or raw.get("Population"),
         "raw": json.dumps(raw, ensure_ascii=False),
     }
 
 
 def geocode_geonames(query: str, limit: int = 5, timeout: float | None = None) -> pd.DataFrame:
     data = _safe_get(GEONAMES_BASE_URL, {"location": query, "limit": limit}, timeout or REQUEST_TIMEOUT)
-    return standardize_geonames_response(query, data)
+    return standardize_geonames_response(query, data).head(limit).reset_index(drop=True)
 
 
 def geocode_photon(query: str, limit: int = 5, timeout: float | None = None) -> pd.DataFrame:
     data = _safe_get(PHOTON_BASE_URL, {"q": query, "limit": limit}, timeout or REQUEST_TIMEOUT)
-    return standardize_photon_response(query, data)
+    return standardize_photon_response(query, data).head(limit).reset_index(drop=True)
 
 
 def standardize_geonames_response(query: str, response_json: dict[str, Any] | list[Any] | None) -> pd.DataFrame:
@@ -55,6 +55,7 @@ def standardize_geonames_response(query: str, response_json: dict[str, Any] | li
     else:
         records = (
             response_json.get("geonames")
+            or response_json.get("records")
             or response_json.get("results")
             or response_json.get("locations")
             or response_json.get("data")
@@ -103,4 +104,3 @@ def _columns() -> list[str]:
         "population",
         "raw",
     ]
-

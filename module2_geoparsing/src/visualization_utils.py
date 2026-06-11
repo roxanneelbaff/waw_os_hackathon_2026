@@ -6,6 +6,12 @@ import folium
 import pandas as pd
 
 
+def _is_display_value(value) -> bool:
+    if pd.isna(value):
+        return False
+    return str(value).strip().lower() not in {"", "nan", "none", "null"}
+
+
 def validate_coordinates(df: pd.DataFrame, lat_col: str = "lat", lon_col: str = "lon") -> pd.DataFrame:
     if df is None or df.empty or lat_col not in df.columns or lon_col not in df.columns:
         return pd.DataFrame(columns=list(df.columns) if df is not None else [lat_col, lon_col])
@@ -31,7 +37,12 @@ def create_location_map(
     popup_cols = popup_cols or [col for col in ["mention", "selected_name", "name", "country", "method"] if col in valid.columns]
 
     for _, row in valid.iterrows():
-        popup_html = "<br>".join(f"<b>{col}</b>: {row.get(col, '')}" for col in popup_cols)
+        popup_values = [
+            f"<b>{col}</b>: {row.get(col)}"
+            for col in popup_cols
+            if _is_display_value(row.get(col))
+        ]
+        popup_html = "<br>".join(popup_values)
         folium.Marker(
             location=[row[lat_col], row[lon_col]],
             popup=folium.Popup(popup_html, max_width=350),
@@ -45,4 +56,3 @@ def save_map(map_obj: folium.Map, output_path: str | Path) -> Path:
     path.parent.mkdir(parents=True, exist_ok=True)
     map_obj.save(str(path))
     return path
-
