@@ -1,0 +1,3 @@
+# Optional NER backends (install only if you use these backends)
+stanza==1.11.1
+flair==0.15.1
