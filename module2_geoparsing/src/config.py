@@ -17,6 +17,6 @@ PHOTON_BASE_URL = os.getenv(
     "http://photon.intra.dlr.de:2322/api/",
 )
 
-LLM_RAG_BASE_URL = os.getenv("LLM_RAG_BASE_URL", "")
+LLM_RAG_BASE_URL = os.getenv("LLM_RAG_BASE_URL", "http://geoparser.intra.dlr.de:8282")
 REQUEST_TIMEOUT = float(os.getenv("REQUEST_TIMEOUT", "10"))
 
