@@ -1,0 +1,176 @@
+source_text_id,mention,selected_name,lat,lon,method,text_id,application_context
+W4408321151,Uttarakhand,"Uttarakhand, India",30.25,79.25,llm_rag_geonames,W4408321151,Flood Risk Assessment and Management
+W4408321151,India,India,22.20775,76.97021,llm_rag_geonames,W4408321151,Flood Risk Assessment and Management
+W4408321151,Uttarakhand,"Uttarakhand, India",30.25,79.25,llm_rag_geonames,W4408321151,Flood Risk Assessment and Management
+W4409321239,East India's,East India,55.94645,-4.74784,llm_rag_geonames,W4409321239,Flood Risk Assessment and Management
+W4409321239,Subarnarekha River,"Subarnarekha River, India",21.56742,87.3595,llm_rag_geonames,W4409321239,Flood Risk Assessment and Management
+W4408764949,ROC,Taiwan,24.0,121.0,llm_rag_geonames,W4408764949,Landslides and related hazards
+W4407830396,Odisha,"Odisha, India",20.5,84.41667,llm_rag_geonames,W4407830396,Tropical and Extratropical Cyclones Research
+W4407830396,West Bengal,"West Bengal, India",24.0,88.0,llm_rag_geonames,W4407830396,Tropical and Extratropical Cyclones Research
+W4407830396,West Bengal,"West Bengal, India",24.0,88.0,llm_rag_geonames,W4407830396,Tropical and Extratropical Cyclones Research
+W4407830396,Hoogly,"Hooghly, West Bengal, India",22.82893,88.20099,llm_rag_geonames,W4407830396,Tropical and Extratropical Cyclones Research
+W4407830396,Parganas,"Parganas, West Bengal, India",22.71,88.7108,llm_rag_geonames,W4407830396,Tropical and Extratropical Cyclones Research
+W4407830396,Odisha,"Odisha, India",20.5,84.41667,llm_rag_geonames,W4407830396,Tropical and Extratropical Cyclones Research
+W4407830396,Kendrapara,"Kendrapara, Odisha, India",20.5,86.5,llm_rag_geonames,W4407830396,Tropical and Extratropical Cyclones Research
+W4407830396,Balasore,"Balasore, Odisha, India",21.5,86.75,llm_rag_geonames,W4407830396,Tropical and Extratropical Cyclones Research
+W4407830396,Jajpur,"Jajpur, Odisha, India",20.84149,86.31237,llm_rag_geonames,W4407830396,Tropical and Extratropical Cyclones Research
+W4407830396,Khordha,"Khordha, Odisha, India",20.2,85.6,llm_rag_geonames,W4407830396,Tropical and Extratropical Cyclones Research
+W4408576605,China,China,35.0,105.0,llm_rag_geonames,W4408576605,Water Resources and Sustainability
+W4408576605,China,China,35.0,105.0,llm_rag_geonames,W4408576605,Water Resources and Sustainability
+W4408257106,the Otter Valley,"Otter Valley, Devon, England, United Kingdom",50.75339,-3.27617,llm_rag_geonames,W4408257106,Soil erosion and sediment transport
+W4408257106,East Devon,"East Devon, England, United Kingdom",50.75632,-3.23487,llm_rag_geonames,W4408257106,Soil erosion and sediment transport
+W4408257106,UK,United Kingdom,54.75844,-2.69531,llm_rag_geonames,W4408257106,Soil erosion and sediment transport
+W4408641270,Pakistan,Pakistan,30.0,70.0,llm_rag_geonames,W4408641270,Geological and Geophysical Studies
+W4408641270,Tethys Sea,Tethys Sea,48.815291,7.8095748,llm_rag_geonames,W4408641270,Geological and Geophysical Studies
+W4408641270,the Tethys Sea,Tethys Sea,48.815291,7.8095748,llm_rag_geonames,W4408641270,Geological and Geophysical Studies
+W4408641270,India,India,22.20775,76.97021,llm_rag_geonames,W4408641270,Geological and Geophysical Studies
+W4408641270,Asia,Asia,29.84064,89.29688,llm_rag_geonames,W4408641270,Geological and Geophysical Studies
+W4408641270,The Tethys Sea,Tethys Sea,48.815291,7.8095748,llm_rag_geonames,W4408641270,Geological and Geophysical Studies
+W4408641270,Tethys Sea,Tethys Sea,48.815291,7.8095748,llm_rag_geonames,W4408641270,Geological and Geophysical Studies
+W4408641270,the Tethys Sea,Tethys Sea,48.815291,7.8095748,llm_rag_geonames,W4408641270,Geological and Geophysical Studies
+W4408641270,Tethys Sea,Tethys Sea,48.815291,7.8095748,llm_rag_geonames,W4408641270,Geological and Geophysical Studies
+W4408560696,North-East,"Nord-Est, France",49.30164,5.7893,llm_rag_geonames,W4408560696,Geotechnical and Geomechanical Engineering
+W4408560696,France,France,46.0,2.0,llm_rag_geonames,W4408560696,Geotechnical and Geomechanical Engineering
+W4394938978,Pakistan,Pakistan,30.0,70.0,llm_rag_geonames,W4394938978,Flood Risk Assessment and Management
+W4394938978,Chad,Chad,15.0,19.0,llm_rag_geonames,W4394938978,Flood Risk Assessment and Management
+W4392372732,Wiley Online Library,"Wiley Online Library, Hoboken, New Jersey, United States",40.7446562,-74.0247642,llm_rag_geonames,W4392372732,Flood Risk Assessment and Management
+W4394783388,California,"California, United States",37.25022,-119.75126,llm_rag_geonames,W4394783388,Hydraulic flow and structures
+W4394783388,the Basin-Wide Feasibility,"California, United States",37.25022,-119.75126,llm_rag_geonames,W4394783388,Hydraulic flow and structures
+W4394783388,Sacramento,"Sacramento, Sacramento County, California, United States",38.44932,-121.34424,llm_rag_geonames,W4394783388,Hydraulic flow and structures
+W4394783388,the Mississippi River Basin's,"Mississippi River Basin, United States",31.332920308599295,-91.50974030763724,llm_rag_geonames,W4394783388,Hydraulic flow and structures
+W4404238193,Sen1Floods11,"Sen1Floods11, Indonesia",-0.989818181999965,113.91586500000005,llm_rag_geonames,W4404238193,Flood Risk Assessment and Management
+W4404238193,Citarum River,"Citarum River, West Java, Indonesia",-5.93833,106.99333,llm_rag_geonames,W4404238193,Flood Risk Assessment and Management
+W4404238193,Indonesia,Indonesia,-5.0,120.0,llm_rag_geonames,W4404238193,Flood Risk Assessment and Management
+W4405589117,England,"England, United Kingdom",52.16045,-0.70312,llm_rag_geonames,W4405589117,Flood Risk Assessment and Management
+W4405589117,Netherlands,Netherlands,52.25,5.75,llm_rag_geonames,W4405589117,Flood Risk Assessment and Management
+W4402887426,China,China,35.0,105.0,llm_rag_geonames,W4402887426,Aquatic and Environmental Studies
+W4400944833,Houston,"Houston, Harris County, Texas, United States",29.73576,-95.3064,llm_rag_geonames,W4400944833,Flood Risk Assessment and Management
+W4400944833,F1,"F1, Houston, Harris County, Texas, United States",29.7608026,-95.3695062,llm_rag_geonames,W4400944833,Flood Risk Assessment and Management
+W4401428439,El Bayadh City,"El Bayadh, Algeria",32.5,1.16667,llm_rag_geonames,W4401428439,Reservoir Engineering and Simulation Methods
+W4401428439,Algeria,Algeria,28.0,3.0,llm_rag_geonames,W4401428439,Reservoir Engineering and Simulation Methods
+W4399723744,田んぼダムの実施により,"Tandabu Dam, Kagoshima, Japan",31.596680870000057,130.55738926000004,llm_rag_geonames,W4399723744,Rice Cultivation and Yield Improvement
+W4402718755,Jakarta,"Jakarta, Indonesia",-6.2,106.83333,llm_rag_geonames,W4402718755,Flood Risk Assessment and Management
+W4402718755,Indonesia,Indonesia,-5.0,120.0,llm_rag_geonames,W4402718755,Flood Risk Assessment and Management
+W4402718755,Jakarta,"Jakarta, Indonesia",-6.2,106.83333,llm_rag_geonames,W4402718755,Flood Risk Assessment and Management
+W4402718755,Jakarta,"Jakarta, Indonesia",-6.2,106.83333,llm_rag_geonames,W4402718755,Flood Risk Assessment and Management
+W4402718755,Jakarta,"Jakarta, Indonesia",-6.2,106.83333,llm_rag_geonames,W4402718755,Flood Risk Assessment and Management
+W4402718755,Jakarta,"Jakarta, Indonesia",-6.2,106.83333,llm_rag_geonames,W4402718755,Flood Risk Assessment and Management
+W4402718755,Jakarta,"Jakarta, Indonesia",-6.2,106.83333,llm_rag_geonames,W4402718755,Flood Risk Assessment and Management
+W4402718755,Jakarta,"Jakarta, Indonesia",-6.2,106.83333,llm_rag_geonames,W4402718755,Flood Risk Assessment and Management
+W4402718755,Jakarta,"Jakarta, Indonesia",-6.2,106.83333,llm_rag_geonames,W4402718755,Flood Risk Assessment and Management
+W4405514784,Eastern Algeria,Algeria,28.0,3.0,llm_rag_geonames,W4405514784,Flood Risk Assessment and Management
+W4394752936,the Samangan Province,"Samangan Province, Afghanistan",36.0,67.66667,llm_rag_geonames,W4394752936,Flood Risk Assessment and Management
+W4394752936,Afghanistan,Afghanistan,33.0,66.0,llm_rag_geonames,W4394752936,Flood Risk Assessment and Management
+W4394752936,Google Earth,Google Earth,17.4122607,78.4304989,llm_rag_geonames,W4394752936,Flood Risk Assessment and Management
+W4400771583,the Greater Bay Area,"Guangdong, China",23.5,113.25,llm_rag_geonames,W4400771583,Flood Risk Assessment and Management
+W4400771583,China,China,35.0,105.0,llm_rag_geonames,W4400771583,Flood Risk Assessment and Management
+W4400771583,−0.40,-0.40,52.235605,21.008778,llm_rag_geonames,W4400771583,Flood Risk Assessment and Management
+W4405480587,Mekong,"Mekong River, Southeast Asia",11.005900000000054,109.16000000000008,llm_rag_geonames,W4405480587,Coastal and Marine Dynamics
+W4405480587,Red River,"Red River, Vietnam",21.03498,105.8455,llm_rag_geonames,W4405480587,Coastal and Marine Dynamics
+W4400799320,the Shillong Plateau,"Shillong Plateau, Meghalaya, India",25.58333,92.0,llm_rag_geonames,W4400799320,Geological and Geochemical Analysis
+W4400799320,India,India,22.20775,76.97021,llm_rag_geonames,W4400799320,Geological and Geochemical Analysis
+W4400799320,Peninsular,Peninsular India,30.6999925,76.8444603,llm_rag_geonames,W4400799320,Geological and Geochemical Analysis
+W4400799320,India,India,22.20775,76.97021,llm_rag_geonames,W4400799320,Geological and Geochemical Analysis
+W4400799320,Australia,Australia,-25.0,135.0,llm_rag_geonames,W4400799320,Geological and Geochemical Analysis
+W4400799320,Tibet,"Tibet Autonomous Region, China",31.66667,88.0,llm_rag_geonames,W4400799320,Geological and Geochemical Analysis
+W4400799320,Antarctica,Antarctica,-78.15856,16.40626,llm_rag_geonames,W4400799320,Geological and Geochemical Analysis
+W4400799320,Australia,Australia,-25.0,135.0,llm_rag_geonames,W4400799320,Geological and Geochemical Analysis
+W4390685885,Vaigai River Basin,"Vaigai River Basin, Tamil Nadu, India",9.925947009872175,78.12735523412432,llm_rag_geonames,W4390685885,Geology and Paleoclimatology Research
+W4390685885,South India,South India,-26.21891,28.16039,llm_rag_geonames,W4390685885,Geology and Paleoclimatology Research
+W4395466834,Shandong Province,"Shandong, China",36.33333,118.25,llm_rag_geonames,W4395466834,Blasting Impact and Analysis
+W4396925855,Guanshan River Basin,"Guanshan River Basin, Hunan, China",25.72055000000006,112.57647000000009,llm_rag_geonames,W4396925855,Soil and Water Nutrient Dynamics
+W4396925855,Guanshan River Basin,"Guanshan River Basin, Hunan, China",25.72055000000006,112.57647000000009,llm_rag_geonames,W4396925855,Soil and Water Nutrient Dynamics
+W4404641625,Germany,Germany,51.5,10.5,llm_rag_geonames,W4404641625,Sustainability and Climate Change Governance
+W4404641625,Europe,Europe,48.69096,9.14062,llm_rag_geonames,W4404641625,Sustainability and Climate Change Governance
+W4404641625,Germany,Germany,51.5,10.5,llm_rag_geonames,W4404641625,Sustainability and Climate Change Governance
+W4405200617,UK,United Kingdom,54.75844,-2.69531,llm_rag_geonames,W4405200617,Soil Management and Crop Yield
+W4405200617,UK,United Kingdom,54.75844,-2.69531,llm_rag_geonames,W4405200617,Soil Management and Crop Yield
+W4405200617,UK,United Kingdom,54.75844,-2.69531,llm_rag_geonames,W4405200617,Soil Management and Crop Yield
+W4405200617,UK,United Kingdom,54.75844,-2.69531,llm_rag_geonames,W4405200617,Soil Management and Crop Yield
+W4405887498,Greater Accra,"Greater Accra Region, Ghana",5.75,0.0,llm_rag_geonames,W4405887498,Hydrology and Watershed Management Studies
+W4405887498,Ghana,Ghana,8.1,-1.2,llm_rag_geonames,W4405887498,Hydrology and Watershed Management Studies
+W4405887498,the Densu River Basin,"Densu River Basin, Ghana",5.510220000000061,-0.3213899999999512,llm_rag_geonames,W4405887498,Hydrology and Watershed Management Studies
+W4405887498,Ghana,Ghana,8.1,-1.2,llm_rag_geonames,W4405887498,Hydrology and Watershed Management Studies
+W4399310789,the Yellow River,"Yellow River, China",37.76158,119.09834,llm_rag_geonames,W4399310789,Arctic and Antarctic ice dynamics
+W4399310789,the River Ice Recognition Index,River Ice Recognition Index,34.6334178,-85.8774747,llm_rag_geonames,W4399310789,Arctic and Antarctic ice dynamics
+W4399310789,Yellow River,"Yellow River, China",37.76158,119.09834,llm_rag_geonames,W4399310789,Arctic and Antarctic ice dynamics
+W4399310789,NSYR,"Ningxia, China",37.25,106.0,llm_rag_geonames,W4399310789,Arctic and Antarctic ice dynamics
+W4396877812,Japan,Japan,35.68536,139.75309,llm_rag_geonames,W4396877812,Synthetic Aperture Radar (SAR) Applications and Techniques
+W4396877812,Koriyama City,"Koriyama, Fukushima, Japan",37.41277,140.29507,llm_rag_geonames,W4396877812,Synthetic Aperture Radar (SAR) Applications and Techniques
+W4396877812,Fukushima Prefecture,"Fukushima, Japan",37.38158,140.22199,llm_rag_geonames,W4396877812,Synthetic Aperture Radar (SAR) Applications and Techniques
+W4396877812,Japan,Japan,35.68536,139.75309,llm_rag_geonames,W4396877812,Synthetic Aperture Radar (SAR) Applications and Techniques
+W4400525816,Turkey,Turkey,39.0,35.0,llm_rag_geonames,W4400525816,Remote-Sensing Image Classification
+W4400525816,Morocco,Morocco,28.5,-10.0,llm_rag_geonames,W4400525816,Remote-Sensing Image Classification
+W4400525816,Libya,Libya,28.0,17.0,llm_rag_geonames,W4400525816,Remote-Sensing Image Classification
+W4393224289,US,United States,42.05179,-102.33041,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4393224289,Atlantic,Atlantic Ocean,-3.72107,-38.51074,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4393224289,Sea,Atlantic Ocean,-3.72107,-38.51074,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4393224289,Lake,"Lake, United States",40.47058,-113.01051,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4393224289,Hurricanes,"Hurricanes, United States",24.5526,-81.8057,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4393224289,Lower Chesapeake Bay,"Lower Chesapeake Bay, Virginia, United States",36.76323000000008,-76.25345499999997,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4393224289,US,United States,42.05179,-102.33041,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4393224289,Atlantic,Atlantic Ocean,-3.72107,-38.51074,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4393224289,Bridgeport,"Bridgeport, Fairfield County, Connecticut, United States",41.179230000000075,-73.18944999999997,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4393224289,the Lower Chesapeake Bay,"Chesapeake Bay, United States",37.96186,-76.17834,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4393224289,Lower Chesapeake Bay,"Chesapeake Bay, United States",37.96186,-76.17834,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4393224289,Massachusetts,"Massachusetts, United States",42.36565,-71.10832,llm_rag_geonames,W4393224289,Tropical and Extratropical Cyclones Research
+W4394966939,Great Lakes,"Great Lakes, United States",44.57143,-84.69022,llm_rag_geonames,W4394966939,Flood Risk Assessment and Management
+W4391560648,Fazilka,"Fazilka, Punjab, India",30.37585,74.11693,llm_rag_geonames,W4391560648,Flood Risk Assessment and Management
+W4391560648,Fazilka,"Fazilka, Punjab, India",30.37585,74.11693,llm_rag_geonames,W4391560648,Flood Risk Assessment and Management
+W4392661189,Maluti,"Maluti, Thabo Mofutsanyana, South Africa",-28.33221,29.02516,llm_rag_geonames,W4392661189,Flood Risk Assessment and Management
+W4392661189,Phofung Municipality,"Phofung Municipality, Free State, South Africa",-28.5336663,28.8081527,llm_rag_geonames,W4392661189,Flood Risk Assessment and Management
+W4392661189,the Drakensberg Mountains,"Drakensberg Mountains, South Africa",-29.046665,29.414165,llm_rag_geonames,W4392661189,Flood Risk Assessment and Management
+W4392661189,Qwaqwa,"Qwaqwa, Free State, South Africa",-28.5349247,28.8325131,llm_rag_geonames,W4392661189,Flood Risk Assessment and Management
+W4392661189,the Drakensberg Mountains,"Drakensberg Mountains, South Africa",-29.046665,29.414165,llm_rag_geonames,W4392661189,Flood Risk Assessment and Management
+W4392661189,Qwaqwa,"Qwaqwa, Free State, South Africa",-28.5349247,28.8325131,llm_rag_geonames,W4392661189,Flood Risk Assessment and Management
+W4392907388,Azerbaijan,Azerbaijan,40.5,47.5,llm_rag_geonames,W4392907388,Groundwater and Isotope Geochemistry
+W4392907388,Iran,Iran,32.0,53.0,llm_rag_geonames,W4392907388,Groundwater and Isotope Geochemistry
+W4391147960,OA,"Oaxaca, Mexico",17.0,-96.5,llm_rag_geonames,W4391147960,Remote Sensing in Agriculture
+W4394759328,Milwaukee River,"Milwaukee River, Milwaukee County, Wisconsin, United States",43.02557,-87.90286,llm_rag_geonames,W4394759328,Microplastics and Plastic Pollution
+W4398206546,Earth,Earth,34.234014,-102.410756,llm_rag_geonames,W4398206546,Soil Moisture and Remote Sensing
+W4396811791,the Caspian Sea,Caspian Sea,42.0,50.0,llm_rag_geonames,W4396811791,Marine and environmental studies
+W4396811791,Lower Volga,"Lower Volga, Russia",57.9551873,38.3860577,llm_rag_geonames,W4396811791,Marine and environmental studies
+W4396811791,Caspian Sea,Caspian Sea,42.0,50.0,llm_rag_geonames,W4396811791,Marine and environmental studies
+W4396811791,Volga River,"Volga River, Russia",57.22665000000006,32.57648000000006,llm_rag_geonames,W4396811791,Marine and environmental studies
+W4396811791,the Lower Volga,"Lower Volga, Russia",57.9551873,38.3860577,llm_rag_geonames,W4396811791,Marine and environmental studies
+W4396811791,pIRIR290,"pIRIR290, Russia",61.989526183000066,96.80537153400007,llm_rag_geonames,W4396811791,Marine and environmental studies
+W4396811791,the Volga River,"Volga River, Russia",57.22665000000006,32.57648000000006,llm_rag_geonames,W4396811791,Marine and environmental studies
+W4396811791,the Caspian Sea,Caspian Sea,42.0,50.0,llm_rag_geonames,W4396811791,Marine and environmental studies
+W4396811791,the East European Plain,East European Plain,55.00000000000006,45.00000000000006,llm_rag_geonames,W4396811791,Marine and environmental studies
+W4396835045,Spain,Spain,40.0,-4.0,llm_rag_geonames,W4396835045,Geology and Paleoclimatology Research
+W4396835045,the Late Quaternary,"Late Quaternary, Spain",39.6006212,-3.0446157,llm_rag_geonames,W4396835045,Geology and Paleoclimatology Research
+W4396835045,the Late Pleistocene,"Late Pleistocene, Spain",40.227949660000036,-3.6460631049999392,llm_rag_geonames,W4396835045,Geology and Paleoclimatology Research
+W4404607471,The Anambra Basin,"Anambra Basin, Nigeria",6.227019375257484,6.935599112925919,llm_rag_geonames,W4404607471,Paleontology and Stratigraphy of Fossils
+W4404607471,Nigeria,Nigeria,10.0,8.0,llm_rag_geonames,W4404607471,Paleontology and Stratigraphy of Fossils
+W4404607471,West,"West, Nigeria",13.44326,4.50116,llm_rag_geonames,W4404607471,Paleontology and Stratigraphy of Fossils
+W4404607471,Africa,Africa,1.5509,25.63297,llm_rag_geonames,W4404607471,Paleontology and Stratigraphy of Fossils
+W4404607471,the Anambra Basin,"Anambra Basin, Nigeria",6.227019375257484,6.935599112925919,llm_rag_geonames,W4404607471,Paleontology and Stratigraphy of Fossils
+W4404607471,the Niger Delta Basin,"Niger Delta Basin, Nigeria",4.7748998,7.021032,llm_rag_geonames,W4404607471,Paleontology and Stratigraphy of Fossils
+W4404607471,the Upper Cretaceous,"Upper Cretaceous, Anambra Basin, Nigeria",6.227019375257484,6.935599112925919,llm_rag_geonames,W4404607471,Paleontology and Stratigraphy of Fossils
+W4404607471,the Anambra Basin,"Anambra Basin, Nigeria",6.227019375257484,6.935599112925919,llm_rag_geonames,W4404607471,Paleontology and Stratigraphy of Fossils
+W4403800381,Earth,Earth,34.234014,-102.410756,llm_rag_geonames,W4403800381,Geological formations and processes
+W4391317197,Sacramento,"Sacramento, Sacramento County, California, United States",38.44932,-121.34424,llm_rag_geonames,W4391317197,Reservoir Engineering and Simulation Methods
+W4391317197,San Joaquin,"San Joaquin, San Joaquin County, California, United States",37.93478,-121.27145,llm_rag_geonames,W4391317197,Reservoir Engineering and Simulation Methods
+W4391317197,California,"California, United States",37.25022,-119.75126,llm_rag_geonames,W4391317197,Reservoir Engineering and Simulation Methods
+W4402599576,the Northern Hemisphere,Northern Hemisphere,-6.5889,108.5029,llm_rag_geonames,W4402599576,Peatlands and Wetlands Ecology
+W4399480775,the Cadarache Area,"Cadarache, Bouches-du-Rhône, Provence-Alpes-Côte d'Azur, France",43.71747,5.74937,llm_rag_geonames,W4399480775,Geology and Paleoclimatology Research
+W4399480775,South East,"South East, France",-20.28417,57.77694,llm_rag_geonames,W4399480775,Geology and Paleoclimatology Research
+W4399480775,France,France,46.0,2.0,llm_rag_geonames,W4399480775,Geology and Paleoclimatology Research
+W4399480775,Upper Provence,"Upper Provence, France",44.00000000000006,6.000000000000057,llm_rag_geonames,W4399480775,Geology and Paleoclimatology Research
+W4391993108,the Rhône Valley,"Rhône Valley, France",44.37776,4.64443,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,the Rhône Valley,"Rhône Valley, France",44.37776,4.64443,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,Mediterranean,Mediterranean Sea,35.23763,23.65656,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,the Strait of Gibraltar,"Strait of Gibraltar, Spain",36.3169826,-6.1535139,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,the Mediterranean Basin,Mediterranean Basin,35.78,19.33,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,Atlantic,Atlantic Ocean,-3.72107,-38.51074,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,Rhône Valley,"Rhône Valley, France",44.37776,4.64443,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,the Rhône Valley,"Rhône Valley, France",44.37776,4.64443,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,the Bresse Basin,"Bresse, France",46.18275,5.06031,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,−,"Rhône Valley, France",44.37776,4.64443,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,Alps,"Alps, France",44.75,7.0,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,South Jura,"Jura, France",46.73431,5.72349,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,Neogene,"Neogene, France",47.6850434,6.4987807,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,Late Neogene,"Late Neogene, France",47.6850434,6.4987807,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391993108,Alps,"Alps, France",44.75,7.0,llm_rag_geonames,W4391993108,Geological and Geophysical Studies Worldwide
+W4391991266,France,France,46.0,2.0,llm_rag_geonames,W4391991266,Geology and Paleoclimatology Research
+W4391991266,the Eocene-Oligocene Transition (EOT,"Eocene-Oligocene Transition (EOT), France",46.55941704400004,2.5505399530000545,llm_rag_geonames,W4391991266,Geology and Paleoclimatology Research

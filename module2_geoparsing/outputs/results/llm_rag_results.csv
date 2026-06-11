@@ -1,0 +1,4 @@
+mention,selected_name,country,lat,lon,confidence,explanation,method,service_base_url
+Jena,"Jena, La Salle Parish, Louisiana, United States",,31.68323,-92.13374,-0.0006434519842964928,,llm_rag_geonames,http://geoparser.intra.dlr.de:8282
+Louisiana,"Louisiana, United States",,31.00047,-92.0004,-0.0006434519842964928,,llm_rag_geonames,http://geoparser.intra.dlr.de:8282
+US,United States,,42.05179,-102.33041,-0.0006434519842964928,,llm_rag_geonames,http://geoparser.intra.dlr.de:8282
