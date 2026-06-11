@@ -141,48 +141,24 @@ The notebook `module1_notebook.ipynb` is divided into the following sections:
     - `owilix remote pull all:latest`
 - Load the provided OWI (Open Web Index) sample (~few MB, JSONL/WARC format) - `owilix` tool guide
 - Inspect raw records: URL, crawl date, raw HTML / extracted text
-<claude>: create a figure to show that there are two path: 1) download data local and later create a local index OR live Search upon asking our model a question:
-                  > Remote full-text search
-                  owilix remote search "open web search" --language eng --limit 10
-                  owilix remote search "graz" --language deu --fetch --select "url,title,quality_score"
 
 ### Section 2 — Data Processing (owilic)
 
-- <claude>: create a use case where we need to "process" the data with two stages: basich web cleanup and use case specific cleanup
-- `process_record(record) → dict`: cleans and normalises a single record
-  - Extract: `url`, `title`, `text`, `language`, `domain`
-- Display **before / after** comparison for several records
-
+- basic data cleanup
 
 ### Section 3 — Indexing with MOSAIC
 
 https://mosaic.ows.eu
 check installation instructions...
 
-<claude> in jupyter notebook > execute This
-check if Java > 17  and MAVEN are installed NOTE ORACLE is not allowed in company's laptop
->a) Download the source code, compile and start the service.
-      This requires git, Java 17, and Maven installed on your computer (Linux, MacOS, Windows).
-      Open a terminal and download the source code from GitLab:
-      git clone https://opencode.it4i.eu/openwebsearcheu-public/mosaic.git
-      Build the project (compiling and packaging the source code and creating the Lucene index):
-      cd mosaic/scripts/
-      build.sh or build.bat
-      Start the service:
-      start.sh or start.bat
-      Try out the REST API of the service in your web browser:
-      http://localhost:8008/search?q=graz
-      Optional: Try out the web interface in your web browser:
-      file://[path-to-mosaic]/mosaic/front-end/index.html
-      Optional: Include a different index. Download an index (folder with .ciff and .parquet files) from the demonstration repository and save the folder with the two files in the [path-to-mosaic]/resource folder, then rebuild and start the service:
-      build.sh or build.bat
-      start.sh of start.bat
-
 
 > MOSAIC runs locally — no external account required.
 - call function 'create_mosaic_index(data_parquet, data_ciff)' These are from OWILIX
 - click here (local host for mosaic)
 - Verify index by querying for a known term
+
+the files are available here: https://drive.google.com/drive/folders/1WhM9LTesEdeyH4o6-kCuPvyqezyFFWxw?usp=share_link
+
 
 ### Section 4 — Retrieval
 
@@ -227,21 +203,6 @@ The LangChain RAG chain takes the retrieved context and the user question, then 
 - Judge scores on: **faithfulness**, **relevance**, **completeness** (1–5 scale)
 - Aggregate scores across a small eval set
 - Display a results table
-
----
-
-## File Structure
-
-```
-module1_web_and_llm/
-├── README.MD               ← this file
-├── requirements.txt        ← all Python dependencies
-├── module1_notebook.ipynb  ← main notebook
-├── data/
-│   ├── sample.jsonl        ← OWI data sample (provided)
-│   └── processed/          ← auto-created by notebook
-└── .env                    ← API keys (create manually, not committed)
-```
 
 ---
 
